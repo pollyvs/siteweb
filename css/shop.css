@@ -1,0 +1,423 @@
+@font-face {font-family:'Montserrat Alternates';
+    src: url('ofont.ru_Montserrat Alternates.ttf');
+
+}
+@font-face {font-family:'Manrope';
+    src: url('ofont.ru_Manrope.ttf');
+
+}
+@font-face {font-family:'PT Serif Caption';
+    src: url('icons/ptserifcaption.ttf');
+
+}
+@font-face {font-family:'NotoSerifKR-Bold';
+    src: url('Noto Serif KR/NotoSerifKR-Bold.otf');
+
+}
+@font-face {font-family:'NotoSerifKR-Regular';
+    src: url('Noto Serif KR/NotoSerifKR-Regular.otf');
+
+}
+@font-face {font-family:'NotoSerifKR-SemiBold';
+    src: url('Noto Serif KR/NotoSerifKR-SemiBold.otf');
+
+}
+*{
+    margin:0;
+    padding: 0;
+
+    box-sizing:border-box;
+
+}
+
+.container{
+
+    margin: 0 auto;
+    width:100% ;
+    height:1575px;
+    background-color: rgb(91, 91, 150);
+
+
+}
+.header{
+
+    width:100%;
+    height:100px;
+    background-color:lavender;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.cell1{
+    z-index: 10;
+    width: 100%;
+    height:100px;
+    margin-right:10px;
+    background-color: lavender;
+    position:fixed;
+    display: flex;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+
+.htmltext{
+    font-size: 50px;
+    user-select: none;
+    left:35.7%;
+    line-height: 100px;
+    font-family:Ustroke;
+    cursor: pointer;
+
+}
+.cell2{
+    width: 100%;
+    height:100px;
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+
+
+}
+.cell2line{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
+.htmltext2{
+    font-size: 30px;
+    line-height: 70px;
+    margin-left:10px;
+    width:20%;
+    text-align:center;
+    cursor:pointer;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+
+}
+
+.htmltext2:hover{
+    transform: scale(102%);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.sub{
+    width: 100%;
+    height: 75px;
+    background-color: lavender;
+
+}
+
+.mid{
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+    padding-top:30px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+.midtext{
+    width: 100%;
+    height:100px;
+    background-color: white;
+
+}
+
+.headinglvl1{
+    font-size: 65px;
+    text-align: center;
+    padding-top:2%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.midheader{
+    width: 100%;
+    height:50px;
+    background-color: lavender;
+    border-radius: 8px;
+}
+.filter{
+    width: 80%;
+    height:50px;
+    margin-left: 10%;
+    background-color: antiquewhite;
+
+    border-radius: 8px;
+    margin-top:10px;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    cursor:pointer;
+
+}
+
+nav ul li{
+    list-style-type: none;
+    line-height: 50px;
+}
+.textfilter{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+
+}
+
+
+
+
+.midpics{
+    background-color: white;
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.midpics .descr{
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5%;
+    height:100px;
+    padding-right: 5%;
+    padding-top: 2%;
+    font-family: "Manrope";
+}
+
+.midpics .price{
+    font-family: Manrope;
+    height:30px;
+    margin-top: 15px;
+    line-height:30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.midpics .label{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Amasis MT";
+    border: 4px double black;
+}
+
+.midpics .product{
+    width: 30%;
+    height:500px ;
+    margin-top:3%;
+    margin-bottom: 7%;
+
+}
+
+
+.product img{
+    display:block;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.product .tocart{
+    position:relative;
+    height: 50px;
+}
+.product .tocart .tocartforp{
+    position: absolute;
+    left:25%;
+
+    margin-top:5%;
+    width:50%;
+    border: black solid 2px;
+    transition: all 0.3s ease 0s;
+}
+.product .tocart p{
+
+    user-select: none;
+
+    line-height: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Manrope";
+
+
+
+}
+
+
+.product .tocartforp:hover{
+    background-color: black;
+    color:white ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    float: right;
+    width: 100%;
+    height: 200px;
+
+    background-color: rgb(91, 91, 150);
+}
+
+.footer p{
+    font-size: 30px;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.hide{
+    display:none;
+}
+
+
+.forhover:hover{
+    transform: scale(102%);
+}
+
+
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    top:0;
+    left:0;
+    opacity:0;
+    visibility:hidden;
+     overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.3s ease 0s;
+    z-index: 20;
+
+
+}
+.popup:target{
+    opacity:1;
+    visibility: visible;
+}
+.popup_content{
+    background-color: white;
+    color:black;
+     width:60%;
+    padding:30px;
+    position:relative;
+    border-radius: 8px;
+
+
+}
+.popup_just{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.popup_just img{
+
+    height:350px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.popup_body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px 10px;
+}
+.popup_close{
+    position:absolute;
+    right:10px;
+    top:10px;
+    font-size: 20px;
+}
+.popup_title{
+    font-size: 50px;
+    margin-bottom:60px;
+    font-family: Manrope;
+    text-align: center;
+}
+.popup_text{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:50%;
+
+
+}
+.popup_text p{
+    text-align: center;
+    width:50%;
+    margin-bottom: 10px;
+    margin-top: 0.3%;
+    font-size: 18px;
+    font-family: "Manrope";
+
+}
+.popup_text img{
+    padding: 2%;
+    height: 35px;
+}
+.popup .tocart{
+    display: flex;
+    justify-content: center;
+
+}
+
+.popup .tocart .tocartforp{
+    height: 50px;
+
+    margin-top:5%;
+    width:50%;
+    border: black solid 2px;
+    transition: all 0.3s ease 0s;
+}
+
+.popup .tocartforp p{
+
+    user-select: none;
+
+    line-height: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Manrope";
+    transition: background-color 0.3s ease 0s;
+}
+
+.popup .tocartforp:hover{
+    background-color: black;
+    color:white ;
+}
