@@ -27,7 +27,7 @@
 
 .cell1{
 
-
+    z-index: 20;
     width: 100%;
     height:100px;
     margin-right:10px;
@@ -119,34 +119,87 @@
     border-radius: 8px;
 }
 
-#slider{
+.slider-wrap   {
     width: 400px;
-    height: 400px;
+    height: 450px;
     border: 3px solid black;
     margin:0 auto;
     position: relative;
-    overflow: hidden;
+
 
 }
-
-.slide-single{
-    width: 187px;
+.slider{
+    width: 400px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+.hot img{
+    width: 180px;
     height: 300px;
-    left: 100px;
 
+    opacity: 1;
     position: absolute;
-    transition: all ease 1s;
+    z-index: 10;
     user-select: none;
 
 }
+.hot{
 
-.rightarrow{
-    width: 100px;
-    height: 100px;
+    left: 110px;
+    opacity: 1;
+    position: absolute;
+    transition: all ease 1s;
+    user-select: none;
 }
-.leftarrow{
-    width: 100px;
-    height: 100px;
+
+.slider .opacity0{
+    opacity: 0;
+}
+
+.hot .label{
+    width:200px;
+    text-align: center;
+    position: absolute;
+    margin-top:300px;
+    right:-190px;
+
+
+    font-size: 30px;
+    font-family: "Amasis MT";
+    border: 4px double black;
+}
+.price{
+    position: absolute;
+    font-family: Manrope;
+
+    margin-top: 350px;
+    right:-112px;
+    font-size: 15px;
+
+}
+
+.tocartforp{
+    position: absolute;
+    width:150px;
+    height:50px;
+    right:-165px;
+
+    margin-top:380PX;
+    border: black solid 2px;
+    transition: all 0.3s ease 0s;
+}
+.tocartforp p{
+
+    user-select: none;
+
+    line-height: 50px;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Manrope";
+
+
+
 }
 .footer{
     float: right;

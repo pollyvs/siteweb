@@ -1,52 +1,61 @@
-let slides = document.querySelectorAll(".slide-single");
-let slider=[];
+let images = document.querySelectorAll(".hot");
+let current=0;
+
 const rightarrow=document.querySelector('.rightarrow')
 const leftarrow=document.querySelector('.leftarrow')
-console.log(slides);
-for (let i=0;i<slides.length;i++){
-    slider[i]=slides[i].src;
-    slides[i].remove();
-}
-console.log(slider);
 
-let step = 0; //какую картинку показывать (1 2 3 или 4)
-let offset = 0; //смещение изображения
-
-function draw(){
-    let img=document.createElement('img');
-    img.src=slider[step];
-    img.classList.add('slide-single');
-    img.style.left=offset*400+100+'px';
-
-    document.querySelector('#slider').appendChild(img);
-
-    if (step+1===slider.length){
-        step=0;
+function slider(){
+    for(let i=0;i<images.length;i++){
+        images[i].classList.add('opacity0');
+    }
+    images[current].classList.remove('opacity0');
+    if(current+1===images.length){
+        current=0;
     }
     else{
-        step++;
+        current++;
     }
-    offset=1;
 
+    setTimeout("slider()",5000);
 }
-
-function left(){
-    rightarrow.onclick=null;
-    let slides2=document.querySelectorAll('.slide-single');
-    let offset2=0;
-    for (let i=0;i<slides2.length;i++){
-        slides2[i].style.left=offset2*400+100-400+'px';
-        offset2++;
-    }
-    setTimeout(function (){
-        slides2[0].remove();
-        draw();
-        rightarrow.onclick=left;
-    },1000);
-
-}
-
-
-
-draw();draw();
-rightarrow.onclick=left;
+window.onload=slider;
+// document.querySelector('.rightarrow').onclick=function(){
+//     if (current-1===-1){
+//         current=images.length-1;
+//     }
+//     else{
+//         current--;
+//     }
+//     slider();
+// };
+// document.querySelector('.leftarrow').onclick=function (){
+//     if (current+1===images.length){
+//         current=0;
+//     }
+//     else{
+//         current++;
+//     }
+//     slider();
+// };
+// document.addEventListener('keyup', function(event){
+//     if(event.key==="ArrowRight"){
+//         if (current-1===-1){
+//             current=images.length-1;
+//         }
+//         else{
+//             current--;
+//         }
+//         slider();
+//     }
+//     else if(event.key==="ArrowLeft"){
+//         if (current+1===images.length){
+//             current=0;
+//         }
+//         else{
+//             current++;
+//         }
+//         slider();
+//     }
+//
+//
+// });
