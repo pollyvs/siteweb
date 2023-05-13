@@ -14,10 +14,69 @@
 <div class="container">
     <div class="header">
         <div id ="header" class="cell1">
-            <img src="icons/OIG%20(1).jpeg">
+            <img class="sitelogo" src="icons/LOGOFORSITEPNG.png">
                 <p class="htmltext" onclick="location.href='index.html'">BEAN and ROAST</p>
+<!--            Корзина-->
+            <div class="header_cart cart active " tabindex="0">
+                <div class="cart_text">
+                    <img class="bag" src="icons/icon-bag.svg">
+                    <span class="cart_quantity">0</span>
+                </div>
 
-            <img src="icons/icon-bag.svg">
+                <div class="cart-content">
+                    <ul class="cart-content_list" data-simplebar>
+                        <li class="cart-content_item">
+                            <article class="cart-content_product cart-product">
+                                <img src="icons/costarica.jpg" alt="Costa Rica" class="cart-product_img">
+                                <div class="cart-product_text">
+                                    <p class="cart-product-title">Costa Rica</p>
+                                    <p class="cart-product-price">859 Р</p>
+                                </div>
+                                <button class="cart-product-delete" ><img src="icons/trash.png" alt=""></button>
+                            </article>
+                        </li>
+                        <li class="cart-content_item">
+                            <article class="cart-content_product cart-product">
+                                <img src="icons/costarica.jpg" alt="Costa Rica" class="cart-product_img">
+                                <div class="cart-product_text">
+                                    <p class="cart-product-title">Suma</p>
+                                    <p class="cart-product-price">859 Р</p>
+                                </div>
+                                <button class="cart-product-delete" ><img src="icons/trash.png" alt=""></button>
+                            </article>
+                        </li>
+                        <li class="cart-content_item">
+                            <article class="cart-content_product cart-product">
+                                <img src="icons/costarica.jpg" alt="Costa Rica" class="cart-product_img">
+                                <div class="cart-product_text">
+                                    <p class="cart-product-title">Costa Rica</p>
+                                    <p class="cart-product-price">859 Р</p>
+                                </div>
+                                <button class="cart-product-delete" ><img src="icons/trash.png" alt=""></button>
+                            </article>
+                        </li>
+                        <li class="cart-content_item">
+                            <article class="cart-content_product cart-product">
+                                <img src="icons/costarica.jpg" alt="Costa Rica" class="cart-product_img">
+                                <div class="cart-product_text">
+                                    <p class="cart-product-title">Costa Rica</p>
+                                    <p class="cart-product-price">859 Р</p>
+                                </div>
+                                <button class="cart-product-delete" ><img src="icons/trash.png" alt=""></button>
+                            </article>
+                        </li>
+                    </ul>
+
+                    <div class="cart-content_bottom">
+                        <div class="cart-content_fullPrice">
+                            <p>Итого:</p>
+                            <p class="fullPrice">859 р</p>
+                        </div>
+                       <button class="cart-content_btn btn">Перейти в корзину</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </div>
@@ -27,9 +86,9 @@
 
         </div>
         <div class="cell2">
-            <p class="htmltext2"><a href="aboutus.html">О нас</a></p>
-            <p class="htmltext2"><a href="shop.html">Магазин</a></p>
-            <p class="htmltext2"><a href="contacts.html">Контакты</a></p>
+            <p class="htmltext2"onclick="location.href='aboutus.html'">О нас</a></p>
+            <p class="htmltext2" onclick="location.href='shop.html'">Магазин</a></p>
+            <p class="htmltext2" onclick="location.href='contacts.html'">Контакты</a></p>
         </div>
     </div>
 
@@ -248,6 +307,7 @@
 
 
     <script src="shop.js"></script>
+    <script src="simplebar.js"></script>
 
 <div class="popup"  id="popup">
     <div class="popup_body">

@@ -1,0 +1,15 @@
+@font-face {font-family:'Manrope';
+    font-style: normal;
+    font-weight: 400;
+
+    src: local("Manrope"), url("icons/ofont.ru_Manrope.ttf");
+
+}
+
+@font-face {font-family:'Amasis MT';
+    font-style: normal;
+    font-weight: 400;
+
+    src: local("Amasis Mt"), url("icons/Amasis-MT-Std-Font.otf");
+
+}

@@ -1,27 +1,7 @@
-@font-face {font-family:'Montserrat Alternates';
-    src: url('ofont.ru_Montserrat Alternates.ttf');
+@import "simplebar.css";
 
-}
-@font-face {font-family:'Manrope';
-    src: url('ofont.ru_Manrope.ttf');
 
-}
-@font-face {font-family:'PT Serif Caption';
-    src: url('icons/ptserifcaption.ttf');
-
-}
-@font-face {font-family:'NotoSerifKR-Bold';
-    src: url('Noto Serif KR/NotoSerifKR-Bold.otf');
-
-}
-@font-face {font-family:'NotoSerifKR-Regular';
-    src: url('Noto Serif KR/NotoSerifKR-Regular.otf');
-
-}
-@font-face {font-family:'NotoSerifKR-SemiBold';
-    src: url('Noto Serif KR/NotoSerifKR-SemiBold.otf');
-
-}
+@import "fonts.css";
 *{
     margin:0;
     padding: 0;
@@ -49,28 +29,37 @@
     justify-content: space-between;
 }
 
+.header .sitelogo{
+    width: 140px;
+    height:110px;
+    padding:5px;
+}
+.header .bag{
+    height:80px;
+    width:90px;
+   margin-top: 10px;
 
+}
 
 .cell1{
     z-index: 10;
     width: 100%;
     height:100px;
-    margin-right:10px;
+
     background-color: lavender;
     position:fixed;
     display: flex;
-    border-radius: 4px;
+
     justify-content: space-between;
 }
 
 .htmltext{
     font-size: 50px;
     user-select: none;
-    left:35.7%;
     line-height: 100px;
     font-family:Ustroke;
     cursor: pointer;
-
+    width:33%;
 }
 .cell2{
     width: 100%;
@@ -421,3 +410,145 @@ nav ul li{
     background-color: black;
     color:white ;
 }
+
+
+
+
+.cart{
+    position: relative;
+    transition: background-color 0.3s;
+    padding-right:20px;
+}
+.cart.active:hover{
+    cursor: pointer;
+    background-color: darkgrey;
+}
+
+.cart.active:hover .cart-content{
+
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s,visibility 0.3s;
+}
+.cart_quantity{
+    position: absolute;
+    right:2px;
+    top:50%;
+    transform:translateY(-50%);
+    margin-right:5px;
+    color:white;
+    margin-top:-15px;
+    background-color: black;
+    border-radius: 100%;
+    height: 16px;
+    min-width: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size:12px;
+    line-height: 1;
+}
+.cart_text{
+    font-family: Manrope;
+}
+.cart-content{
+    cursor: default;
+    position: absolute;
+    right:0;
+    width:490px;
+    top:100%;
+    background-color: white;
+    box-shadow: 0px 4px 4px darkgray;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s,visibility 0.3s;
+}
+
+.cart-content_list{
+    max-height: 330px;
+
+}
+
+.cart-product{
+
+    display: flex;
+    align-items: center;
+    padding:12px 20px;
+}
+.cart-product_img{
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+.cart-product-title{
+    width:120px;
+    max-width:120px;
+    font-family: Manrope;
+    font-size:18px;
+
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+
+.cart-product-price{
+    font-family: Manrope;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left:20px;
+    margin-top:50px;
+}
+
+.cart-product-delete{
+
+
+    border:none;
+    background-color: transparent;
+
+
+}
+.cart-product-delete img{
+
+    width:25px;
+    height: 30px;
+    margin-left: 220px;
+
+}
+
+.cart-content_bottom{
+    padding: 20px;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-content_fullPrice{
+    display: flex;
+    flex-direction: column;
+    font-family: Manrope;
+    font-size: 20px;
+}
+.fullPrice{
+    font-family:Manrope;
+    font-size: 25px;
+
+}
+.cart-content_btn{
+    font-size: 17px;
+    font-family: "Manrope";
+    border: black solid 2px;
+    height:50px;
+    width:246px;
+
+    margin-top: 10px;
+    text-align: center;
+    background-color: transparent;
+    transition: all 0.3s ease 0s;
+}
+.cart-content_btn:hover{
+    background-color: black;
+    color:white ;
+
+}
+
