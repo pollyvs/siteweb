@@ -22,3 +22,37 @@
     }
 
 }
+
+@media  only screen and (max-width: 1300px){
+    .popup_text{
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .popup_text p{
+        text-align: center;
+        width:50%;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        font-size: 18px;
+        font-family: "Manrope";
+    }
+    .popup_title{
+        font-size: 50px;
+        margin-bottom:20px;
+        font-family: Manrope;
+        text-align: center;
+    }
+    .popup_text img{
+        height: 35px;
+        margin-top: 1px;
+
+    }
+    .popup_text:nth-child(-n+2){
+
+        margin-top: 20px;
+
+    }
+}
+

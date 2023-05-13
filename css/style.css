@@ -43,7 +43,8 @@
     user-select: none;
     left:35.7%;
     line-height: 100px;
-    font-family:Ustroke;
+    font-family:'Courier New', Courier,monospace;
+    font-weight: 500;
     cursor: pointer;
 
 }
