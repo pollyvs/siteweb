@@ -5,6 +5,7 @@
     <link  rel="stylesheet" href="css/shop.css">
     <link  rel="stylesheet" href="css/responsiveshop.css">
     <link  rel="stylesheet" href="css/cart.css">
+    <link  rel="stylesheet" href="css/modal.css">
     <title> Магазин </title>
 
 
@@ -18,7 +19,7 @@
             <img class="sitelogo" src="icons/LOGOFORSITEPNG.png">
                 <p class="htmltext" onclick="location.href='index.html'">BEAN and ROAST</p>
 <!--            Корзина-->
-            <div class="header_cart cart active " tabindex="0">
+            <div class="header_cart cart " tabindex="0">
                 <div class="cart_text">
                     <img class="bag" src="icons/icon-bag.svg">
                     <span class="cart_quantity">0</span>
@@ -26,54 +27,15 @@
 
                 <div class="cart-content">
                     <ul class="cart-content_list" data-simplebar>
-                        <li class="cart-content_item">
-                            <article class="cart-content_product cart-product">
-                                <img src="icons/costarica.jpg" alt="Costa Rica" class="cart-product_img">
-                                <div class="cart-product_text">
-                                    <p class="cart-product-title">Costa Rica</p>
-                                    <p class="cart-product-price">859 Р</p>
-                                </div>
-                                <button class="cart-product-delete" ><img src="icons/trash.png" alt=""></button>
-                            </article>
-                        </li>
-                        <li class="cart-content_item">
-                            <article class="cart-content_product cart-product">
-                                <img src="icons/costarica.jpg" alt="Costa Rica" class="cart-product_img">
-                                <div class="cart-product_text">
-                                    <p class="cart-product-title">Suma</p>
-                                    <p class="cart-product-price">859 Р</p>
-                                </div>
-                                <button class="cart-product-delete" ><img src="icons/trash.png" alt=""></button>
-                            </article>
-                        </li>
-                        <li class="cart-content_item">
-                            <article class="cart-content_product cart-product">
-                                <img src="icons/costarica.jpg" alt="Costa Rica" class="cart-product_img">
-                                <div class="cart-product_text">
-                                    <p class="cart-product-title">Costa Rica</p>
-                                    <p class="cart-product-price">859 Р</p>
-                                </div>
-                                <button class="cart-product-delete" ><img src="icons/trash.png" alt=""></button>
-                            </article>
-                        </li>
-                        <li class="cart-content_item">
-                            <article class="cart-content_product cart-product">
-                                <img src="icons/costarica.jpg" alt="Costa Rica" class="cart-product_img">
-                                <div class="cart-product_text">
-                                    <p class="cart-product-title">Costa Rica</p>
-                                    <p class="cart-product-price">859 Р</p>
-                                </div>
-                                <button class="cart-product-delete" ><img src="icons/trash.png" alt=""></button>
-                            </article>
-                        </li>
+
                     </ul>
 
                     <div class="cart-content_bottom">
                         <div class="cart-content_fullPrice">
                             <p>Итого:</p>
-                            <p class="fullPrice">859 р</p>
+                            <p class="fullPrice">0 р</p>
                         </div>
-                       <button class="cart-content_btn btn">Перейти в корзину</button>
+                       <button class="cart-content_btn btn" data-graph-path="modal" data-graph-animation="fadeInUp" data-graph-speed="700">Перейти в корзину</button>
                     </div>
                 </div>
             </div>
@@ -87,9 +49,9 @@
 
         </div>
         <div class="cell2">
-            <p class="htmltext2"onclick="location.href='aboutus.html'">О нас</a></p>
-            <p class="htmltext2" onclick="location.href='shop.html'">Магазин</a></p>
-            <p class="htmltext2" onclick="location.href='contacts.html'">Контакты</a></p>
+            <p class="htmltext2"onclick="location.href='aboutus.html'">О нас</p>
+            <p class="htmltext2" onclick="location.href='shop.html'">Магазин</p>
+            <p class="htmltext2" onclick="location.href='contacts.html'">Контакты</p>
         </div>
     </div>
 
@@ -124,19 +86,19 @@
 
                 </div>
                 <p class="price">859 р.</p>
-                <div class="tocart">
-                    <div class="tocartforp">
+
+                    <div class="tocart">
 
                         <p>Добавить в корзину</p>
                     </div>
-                </div>
+
 
             </div>
 
             <div class="box rough product">
                 <div class="forhover">
                     <a href="#popup1" class="popup-link">
-                        <img src="icons/orig.jpg">
+                        <img class="icon" src="icons/orig.jpg">
                         <p class="label">Cuba</p>
                         <p class="descr">Настоящая жемчужина среди кофе Карибского бассейна – яркая, самобытная, узнаваемая.</p>
 
@@ -144,157 +106,156 @@
 
                 </div>
                 <p class="price">830 р.</p>
-                <div class="tocart">
-                    <div class="tocartforp">
+
+                    <div class="tocart">
 
                         <p>Добавить в корзину</p>
                     </div>
-                </div>
+
 
             </div>
 
             <div class="box sweet product">
                 <div class="forhover">
                     <a href="#popup2" class="popup-link">
-                        <img src="icons/honduras.jpg" >
+                        <img class="icon" src="icons/honduras.jpg" >
                         <p class="label"> Honduras</p>
                         <p class="descr">  Классический образец арабики из Центральной Америки. </p>
                     </a>
                 </div>
                 <p class="price">750 р.</p>
-                <div class="tocart">
-                    <div class="tocartforp">
+
+                    <div class="tocart">
 
                         <p>Добавить в корзину</p>
                     </div>
-                </div>
+
             </div>
 
 
             <div class="box rough product">
                 <div class="forhover">
                     <a href="#popup3" class="popup-link">
-                        <img src="icons/mexico.jpeg">
+                        <img class="icon"  src="icons/mexico.jpeg">
                         <p class="label">Mexico</p>
                         <p class="descr">Приятный и сбалансированный сорт из высокогорного штата Чиапас.</p>
 
                     </a>
                 </div>
                 <p class="price">799 р.</p>
-                <div class="tocart">
-                    <div class="tocartforp">
+
+                    <div class="tocart">
 
                         <p>Добавить в корзину</p>
                     </div>
-                </div>
+
 
             </div>
 
             <div class="box sweet product">
                 <div class="forhover">
                     <a href="#popup4" class="popup-link">
-                        <img src="icons/ethiopia.jpeg">
+                        <img class="icon"  src="icons/ethiopia.jpeg">
                         <p class="label">Ethiopia</p>
                          <p class="descr">Самая знаменитая арабика из Эфиопии – родины кофе.</p>
                     </a>
                 </div>
                 <p class="price">859 р.</p>
-                <div class="tocart">
-                    <div class="tocartforp">
+
+                    <div class="tocart">
 
                         <p>Добавить в корзину</p>
                     </div>
-                </div>
+
 
             </div>
 
             <div class="box rough product">
                 <div class="forhover">
                     <a href="#popup5" class="popup-link">
-                        <img src="icons/columbia.jpeg" >
+                        <img class="icon"  src="icons/columbia.jpeg" >
                         <p class="label">Colombia</p>
                         <p class="descr"> Невероятное сочетание ноток апельсина и бергамота с берегов Колумбии. </p>
                     </a>
                 </div>
                 <p class="price">830 р.</p>
-                <div class="tocart">
-                    <div class="tocartforp">
+
+                    <div class="tocart">
 
                         <p>Добавить в корзину</p>
                     </div>
-                </div>
+
             </div>
 
 
             <div class="box sweet product">
                 <div class="forhover">
                     <a href="#popup6" class="popup-link">
-                        <img src="icons/guatemala.jpg">
+                        <img class="icon"  src="icons/guatemala.jpg">
                         <p class="label">Guatemala</p>
                         <p class="descr">Кофе отличается яркой и свежей кислотностью.</p>
                     </a>
                 </div>
                 <p class="price">859 р.</p>
-                <div class="tocart">
-                    <div class="tocartforp">
+
+                    <div class="tocart">
 
                         <p>Добавить в корзину</p>
                     </div>
-                </div>
+
 
             </div>
 
             <div class="box sour product">
                 <div class="forhover">
-                <a href="#popup7" class="popup-link">
-                <img src="icons/nicaragua-400x400.png">
-                <p class="label">Nicaragua</p>
-                <p class="descr">Кофе Никарагуа Марагоджип становится настоящим открытием для тех, кто привык к традиционной арабике</p>
-                </a>
+                    <a href="#popup7" class="popup-link">
+                        <img class="icon"  src="icons/nicaragua-400x400.png">
+                        <p class="label">Nicaragua</p>
+                        <p class="descr">Кофе Никарагуа Марагоджип становится настоящим открытием для тех, кто привык к традиционной арабике</p>
+                    </a>
                 </div>
-                <p class="price">670 р.</p>
-                <div class="tocart">
-                    <div class="tocartforp">
+                <p class="price">830 р.</p>
+                    <div class="tocart">
 
                         <p>Добавить в корзину</p>
                     </div>
-                </div>
+
 
             </div>
 
             <div class="box sour brazil product">
                 <div class="forhover">
-                <a href="#popup8" class="popup-link">
-                <img src="icons/brazil-400x400.jpeg" >
-                <p class="label">Brazil</p>
-                <p class="descr">Мягкий кофе, во вкусе выражен молочный шоколад, курага, изюм и орехи. </p>
-                </a>
+                    <a href="#popup8" class="popup-link">
+                        <img class="icon"  src="icons/brazil-400x400.jpeg" >
+                        <p class="label">Brazil</p>
+                        <p class="descr">Мягкий кофе, во вкусе выражен молочный шоколад, курага, изюм и орехи. </p>
+                    </a>
                 </div>
                 <p class="price">750 р.</p>
-                <div class="tocart">
-                    <div class="tocartforp">
+
+                    <div class="tocart">
 
                         <p>Добавить в корзину</p>
                     </div>
-                </div>
+
 
             </div>
 
             <div class="box sour sumatra product">
                 <div class="forhover">
-                <a href="#popup9" class="popup-link">
-                <img src="icons/sumatra-400x400.png" >
-                <p class="label">Sumatra</p>
-                <p class="descr"> Суматра </p>
-                </a>
+                    <a href="#popup9" class="popup-link">
+                        <img class="icon"  src="icons/sumatra-400x400.png" >
+                        <p class="label">Sumatra</p>
+                        <p class="descr"> Суматра </p>
+                    </a>
                 </div>
                 <p class="price">630 р.</p>
-                <div class="tocart">
-                    <div class="tocartforp">
+
+                    <div class="tocart">
 
                         <p>Добавить в корзину</p>
                     </div>
-                </div>
+
             </div>
 
 
@@ -305,10 +266,44 @@
     <div class="footer"><p>polisha inc</p></div>
     </div>
 
+<div class="modal">
+    <div class="modal__container order-modal " role="dialog" aria-modal="true" data-graph-target="modal">
+        <div class="modal-content order-modal__content">
+            <div class="order-modal__top">
+                <p class="order-modal__title">Оформление заказа</p>
+                <p class="order-modal__number">Заказ № 3456 67</p>
+            </div>
+            <div class="order-modal__info">
+                <div class="order-modal__quantity order-modal__info-item">Товаров в заказе: <span>3 шт</span></div>
+                <div class="order-modal__summ order-modal__info-item">Общая сумма заказа: <span>568 789 ₽</span></div>
+                <div class="order-modal__products order-modal__info-item">
+                    <button class="order-modal__btn">Состав заказа</button>
+                    <ul class="order-modal__list">
+
+                    </ul>
+                </div>
+            </div>
+            <form action="#" class="order-modal__form order">
+                <label class="order__label">
+                    <span class="order__text">Ваше имя</span>
+                    <input type="text" name="Имя" class="order__input">
+                </label>
+                <label class="order__label">
+                    <span class="order__text">Номер телефона</span>
+                    <input type="tel" name="Телефон" class="order__input" placeholder="+7 (___)___-__-__">
+                </label>
+                <label class="order__label">
+                    <span class="order__text">Ваше e-mail</span>
+                    <input type="email" name="Email" class="order__input" placeholder="post@gmail.com">
+                </label>
+                <button class="order__btn btn">Оформить заказ</button>
+            </form>
+        </div>
+    </div>
+</div>
 
 
-    <script src="shop.js"></script>
-    <script src="simplebar.js"></script>
+
 
 <div class="popup"  id="popup">
     <div class="popup_body">
@@ -333,13 +328,13 @@
                 </div>
 
             </div>
+            <p class="price">859 р.</p>
 
-            <div class="tocart">
                 <div class="tocartforp">
 
                     <p>Добавить в корзину</p>
                 </div>
-            </div>
+
 
         </div>
     </div>
@@ -367,12 +362,12 @@
                     <img src="icons/POSLEVKUSIE.png" alt="">
                 </div>
             </div>
-            <div class="tocart">
+            <p class="price">830 р.</p>
                 <div class="tocartforp">
 
                     <p>Добавить в корзину</p>
                 </div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -399,12 +394,12 @@
                     <img src="icons/POSLEVKUSIE.png" alt="">
                 </div>
             </div>
-            <div class="tocart">
+            <p class="price">750 р.</p>
                 <div class="tocartforp">
 
                     <p>Добавить в корзину</p>
                 </div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -431,12 +426,12 @@
                     <img src="icons/POSLEVKUSIE.png" alt="">
                 </div>
             </div>
-            <div class="tocart">
+            <p class="price">799 р.</p>
                 <div class="tocartforp">
 
                     <p>Добавить в корзину</p>
                 </div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -463,12 +458,12 @@
                     <img src="icons/POSLEVKUSIE.png" alt="">
                 </div>
             </div>
-            <div class="tocart">
+            <p class="price">859 р.</p>
                 <div class="tocartforp">
 
                     <p>Добавить в корзину</p>
                 </div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -495,12 +490,11 @@
                     <img src="icons/POSLEVKUSIE.png" alt="">
                 </div>
             </div>
-            <div class="tocart">
+            <p class="price">830 р.</p>
                 <div class="tocartforp">
-
                     <p>Добавить в корзину</p>
                 </div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -527,12 +521,12 @@
                     <img src="icons/POSLEVKUSIE.png" alt="">
                 </div>
             </div>
-            <div class="tocart">
+            <p class="price">859 р.</p>
                 <div class="tocartforp">
 
                     <p>Добавить в корзину</p>
                 </div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -559,12 +553,12 @@
                     <img src="icons/POSLEVKUSIE.png" alt="">
                 </div>
             </div>
-            <div class="tocart">
+            <p class="price">830 р.</p>
                 <div class="tocartforp">
 
                     <p>Добавить в корзину</p>
                 </div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -591,12 +585,12 @@
                     <img src="icons/POSLEVKUSIE.png" alt="">
                 </div>
             </div>
-            <div class="tocart">
+            <p class="price">750 р.</p>
                 <div class="tocartforp">
 
                     <p>Добавить в корзину</p>
                 </div>
-            </div>
+
         </div>
     </div>
 </div>
@@ -623,15 +617,18 @@
                     <img src="icons/POSLEVKUSIE.png" alt="">
                 </div>
             </div>
-            <div class="tocart">
-                <div class="tocartforp">
 
+            <p class="price">630 р.</p>
+                <div class="tocartforp">
                     <p>Добавить в корзину</p>
                 </div>
-            </div>
         </div>
     </div>
 </div>
+<script src="js/shop.js"></script>
+<script src="js/simplebar.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/cart.js"></script>
 
 </body>
 </html>
