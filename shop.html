@@ -5,7 +5,9 @@
     <link  rel="stylesheet" href="css/shop.css">
     <link  rel="stylesheet" href="css/responsiveshop.css">
     <link  rel="stylesheet" href="css/cart.css">
+    <link  rel="stylesheet" href="css/orderModal.css">
     <link  rel="stylesheet" href="css/modal.css">
+
     <title> Магазин </title>
 
 
@@ -17,7 +19,7 @@
     <div class="header">
         <div id ="header" class="cell1">
             <img class="sitelogo" src="icons/LOGOFORSITEPNG.png">
-                <p class="htmltext" onclick="location.href='index.html'">BEAN and ROAST</p>
+                <p class="htmltext" onclick="location.href='index.html'">BEAN & ROAST</p>
 <!--            Корзина-->
             <div class="header_cart cart " tabindex="0">
                 <div class="cart_text">
@@ -76,7 +78,7 @@
 
         <div class="midpics">
 
-            <div class="box sweet product">
+            <div class="box sweet product ">
                 <div  class="forhover">
                     <a href="#popup" class="popup-link">
                         <img class="icon" src="icons/costarica.jpg" >
@@ -115,7 +117,7 @@
 
             </div>
 
-            <div class="box sweet product">
+            <div class="box sour product">
                 <div class="forhover">
                     <a href="#popup2" class="popup-link">
                         <img class="icon" src="icons/honduras.jpg" >
@@ -136,7 +138,7 @@
             <div class="box rough product">
                 <div class="forhover">
                     <a href="#popup3" class="popup-link">
-                        <img class="icon"  src="icons/mexico.jpeg">
+                        <img class="icon"  src="icons/mexico.png">
                         <p class="label">Mexico</p>
                         <p class="descr">Приятный и сбалансированный сорт из высокогорного штата Чиапас.</p>
 
@@ -155,7 +157,7 @@
             <div class="box sweet product">
                 <div class="forhover">
                     <a href="#popup4" class="popup-link">
-                        <img class="icon"  src="icons/ethiopia.jpeg">
+                        <img class="icon"  src="icons/ethiopia.png">
                         <p class="label">Ethiopia</p>
                          <p class="descr">Самая знаменитая арабика из Эфиопии – родины кофе.</p>
                     </a>
@@ -173,7 +175,7 @@
             <div class="box rough product">
                 <div class="forhover">
                     <a href="#popup5" class="popup-link">
-                        <img class="icon"  src="icons/columbia.jpeg" >
+                        <img class="icon"  src="icons/columbia.png" >
                         <p class="label">Colombia</p>
                         <p class="descr"> Невероятное сочетание ноток апельсина и бергамота с берегов Колумбии. </p>
                     </a>
@@ -191,8 +193,8 @@
             <div class="box sweet product">
                 <div class="forhover">
                     <a href="#popup6" class="popup-link">
-                        <img class="icon"  src="icons/guatemala.jpg">
-                        <p class="label">Guatemala</p>
+                        <img class="icon"  src="icons/colombia-decaf-400x400.png">
+                        <p class="label">Decaf</p>
                         <p class="descr">Кофе отличается яркой и свежей кислотностью.</p>
                     </a>
                 </div>
@@ -206,7 +208,7 @@
 
             </div>
 
-            <div class="box sour product">
+            <div class="box sweet product">
                 <div class="forhover">
                     <a href="#popup7" class="popup-link">
                         <img class="icon"  src="icons/nicaragua-400x400.png">
@@ -226,7 +228,7 @@
             <div class="box sour brazil product">
                 <div class="forhover">
                     <a href="#popup8" class="popup-link">
-                        <img class="icon"  src="icons/brazil-400x400.jpeg" >
+                        <img class="icon"  src="icons/brazil-400x400.png" >
                         <p class="label">Brazil</p>
                         <p class="descr">Мягкий кофе, во вкусе выражен молочный шоколад, курага, изюм и орехи. </p>
                     </a>
@@ -275,7 +277,7 @@
             </div>
             <div class="order-modal__info">
                 <div class="order-modal__quantity order-modal__info-item">Товаров в заказе: <span>3 шт</span></div>
-                <div class="order-modal__summ order-modal__info-item">Общая сумма заказа: <span>568 789 ₽</span></div>
+                <div class="order-modal__summ order-modal__info-item">Общая сумма заказа: <span>0 ₽</span></div>
                 <div class="order-modal__products order-modal__info-item">
                     <button class="order-modal__btn">Состав заказа</button>
                     <ul class="order-modal__list">
@@ -306,6 +308,7 @@
 
 
 <div class="popup"  id="popup">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
     <div class="popup_body">
         <div class="popup_content">
             <a href="#header" class="popup_close">X</a>
@@ -318,13 +321,13 @@
                     <p>Страна:</p>
                     <p> Коста Рика</p>
                     <p>Кислотность:</p>
-                    <img src="icons/points-2-135x15.png" alt="">
+                    <img src="icons/2points.png" alt="">
                     <p>Плотность:</p>
-                    <img src="icons/PLOTNOSTCOSTARICA.png" alt="">
+                    <img src="icons/3points.png" alt="">
                     <p>Сладость:</p>
-                    <img src="icons/SLADOSTCOSTARICA.png" alt="">
+                    <img src="icons/4points.png" alt="">
                     <p>Послевкусие:</p>
-                    <img src="icons/POSLEVKUSIE.png" alt="">
+                    <img src="icons/4points.png" alt="">
                 </div>
 
             </div>
@@ -341,6 +344,7 @@
 </div>
 
 <div class="popup"  id="popup1">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
     <div class="popup_body">
         <div class="popup_content">
             <a href="#header" class="popup_close">X</a>
@@ -353,13 +357,13 @@
                     <p>Страна:</p>
                     <p>Куба</p>
                     <p>Кислотность:</p>
-                    <img src="icons/points-2-135x15.png" alt="">
+                    <img src="icons/3points.png" alt="">
                     <p>Плотность:</p>
-                    <img src="icons/PLOTNOSTCOSTARICA.png" alt="">
+                    <img src="icons/4points.png" alt="">
                     <p>Сладость:</p>
-                    <img src="icons/SLADOSTCOSTARICA.png" alt="">
+                    <img src="icons/2points.png" alt="">
                     <p>Послевкусие:</p>
-                    <img src="icons/POSLEVKUSIE.png" alt="">
+                    <img src="icons/3points.png" alt="">
                 </div>
             </div>
             <p class="price">830 р.</p>
@@ -373,6 +377,7 @@
 </div>
 
 <div class="popup"  id="popup2">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
     <div class="popup_body">
         <div class="popup_content">
             <a href="#header" class="popup_close">X</a>
@@ -385,13 +390,13 @@
                     <p>Страна:</p>
                     <p>Гондурас</p>
                     <p>Кислотность:</p>
-                    <img src="icons/points-2-135x15.png" alt="">
+                    <img src="icons/4points.png" alt="">
                     <p>Плотность:</p>
-                    <img src="icons/PLOTNOSTCOSTARICA.png" alt="">
+                    <img src="icons/3points.png" alt="">
                     <p>Сладость:</p>
-                    <img src="icons/SLADOSTCOSTARICA.png" alt="">
+                    <img src="icons/3points.png" alt="">
                     <p>Послевкусие:</p>
-                    <img src="icons/POSLEVKUSIE.png" alt="">
+                    <img src="icons/4points.png" alt="">
                 </div>
             </div>
             <p class="price">750 р.</p>
@@ -405,25 +410,26 @@
 </div>
 
 <div class="popup"  id="popup3">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
     <div class="popup_body">
         <div class="popup_content">
             <a href="#header" class="popup_close">X</a>
             <div class="popup_title">Mexico</div>
             <div class="popup_just">
-                <img src="icons/mexico.jpeg" alt="">
+                <img src="icons/mexico.png" alt="">
                 <div class="popup_text">
                     <p>Производитель:</p>
                     <p>Bean & Roast</p>
                     <p>Страна:</p>
                     <p>Мексика</p>
                     <p>Кислотность:</p>
-                    <img src="icons/points-2-135x15.png" alt="">
+                    <img src="icons/4points.png" alt="">
                     <p>Плотность:</p>
-                    <img src="icons/PLOTNOSTCOSTARICA.png" alt="">
+                    <img src="icons/4points.png" alt="">
                     <p>Сладость:</p>
-                    <img src="icons/SLADOSTCOSTARICA.png" alt="">
+                    <img src="icons/1point.png" alt="">
                     <p>Послевкусие:</p>
-                    <img src="icons/POSLEVKUSIE.png" alt="">
+                    <img src="icons/5points.png" alt="">
                 </div>
             </div>
             <p class="price">799 р.</p>
@@ -437,25 +443,26 @@
 </div>
 
 <div class="popup"  id="popup4">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
     <div class="popup_body">
         <div class="popup_content">
             <a href="#header" class="popup_close">X</a>
             <div class="popup_title">Ethiopia</div>
             <div class="popup_just">
-                <img src="icons/ethiopia.jpeg" alt="">
+                <img src="icons/ethiopia.png" alt="">
                 <div class="popup_text">
                     <p>Производитель:</p>
                     <p>Bean & Roast</p>
                     <p>Страна:</p>
                     <p>Эфиопия</p>
                     <p>Кислотность:</p>
-                    <img src="icons/points-2-135x15.png" alt="">
+                    <img src="icons/2points.png" alt="">
                     <p>Плотность:</p>
-                    <img src="icons/PLOTNOSTCOSTARICA.png" alt="">
+                    <img src="icons/1point.png" alt="">
                     <p>Сладость:</p>
-                    <img src="icons/SLADOSTCOSTARICA.png" alt="">
+                    <img src="icons/4points.png" alt="">
                     <p>Послевкусие:</p>
-                    <img src="icons/POSLEVKUSIE.png" alt="">
+                    <img src="icons/3points.png" alt="">
                 </div>
             </div>
             <p class="price">859 р.</p>
@@ -469,25 +476,26 @@
 </div>
 
 <div class="popup"  id="popup5">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
     <div class="popup_body">
         <div class="popup_content">
             <a href="#header" class="popup_close">X</a>
             <div class="popup_title">Colombia</div>
             <div class="popup_just">
-                <img src="icons/columbia.jpeg" alt="">
+                <img src="icons/columbia.png" alt="">
                 <div class="popup_text">
                     <p>Производитель:</p>
                     <p>Bean & Roast</p>
                     <p>Страна:</p>
                     <p>Колумбия</p>
                     <p>Кислотность:</p>
-                    <img src="icons/points-2-135x15.png" alt="">
+                    <img src="icons/3points.png" alt="">
                     <p>Плотность:</p>
-                    <img src="icons/PLOTNOSTCOSTARICA.png" alt="">
+                    <img src="icons/4points.png" alt="">
                     <p>Сладость:</p>
-                    <img src="icons/SLADOSTCOSTARICA.png" alt="">
+                    <img src="icons/2points.png" alt="">
                     <p>Послевкусие:</p>
-                    <img src="icons/POSLEVKUSIE.png" alt="">
+                    <img src="icons/3points.png" alt="">
                 </div>
             </div>
             <p class="price">830 р.</p>
@@ -500,25 +508,22 @@
 </div>
 
 <div class="popup"  id="popup6">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
     <div class="popup_body">
         <div class="popup_content">
             <a href="#header" class="popup_close">X</a>
-            <div class="popup_title">Guatemala</div>
+            <div class="popup_title">Decaf</div>
             <div class="popup_just">
-                <img src="icons/guatemala.jpg" alt="">
+                <img src="icons/colombia-decaf-400x400.png" alt="">
                 <div class="popup_text">
                     <p>Производитель:</p>
                     <p>Bean & Roast</p>
                     <p>Страна:</p>
-                    <p>Гватемала</p>
-                    <p>Кислотность:</p>
-                    <img src="icons/points-2-135x15.png" alt="">
-                    <p>Плотность:</p>
-                    <img src="icons/PLOTNOSTCOSTARICA.png" alt="">
+                    <p>Бразилия</p>
                     <p>Сладость:</p>
-                    <img src="icons/SLADOSTCOSTARICA.png" alt="">
+                    <img src="icons/4points.png" alt="">
                     <p>Послевкусие:</p>
-                    <img src="icons/POSLEVKUSIE.png" alt="">
+                    <img src="icons/3points.png" alt="">
                 </div>
             </div>
             <p class="price">859 р.</p>
@@ -532,6 +537,7 @@
 </div>
 
 <div class="popup"  id="popup7">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
     <div class="popup_body">
         <div class="popup_content">
             <a href="#header" class="popup_close">X</a>
@@ -544,13 +550,13 @@
                     <p>Страна:</p>
                     <p>Никарагуа</p>
                     <p>Кислотность:</p>
-                    <img src="icons/points-2-135x15.png" alt="">
+                    <img src="icons/3points.png" alt="">
                     <p>Плотность:</p>
-                    <img src="icons/PLOTNOSTCOSTARICA.png" alt="">
+                    <img src="icons/3points.png" alt="">
                     <p>Сладость:</p>
-                    <img src="icons/SLADOSTCOSTARICA.png" alt="">
+                    <img src="icons/5points.png" alt="">
                     <p>Послевкусие:</p>
-                    <img src="icons/POSLEVKUSIE.png" alt="">
+                    <img src="icons/3points.png" alt="">
                 </div>
             </div>
             <p class="price">830 р.</p>
@@ -564,25 +570,26 @@
 </div>
 
 <div class="popup"  id="popup8">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
     <div class="popup_body">
         <div class="popup_content">
             <a href="#header" class="popup_close">X</a>
             <div class="popup_title">Brazil</div>
             <div class="popup_just">
-                <img src="icons/brazil-400x400.jpeg" alt="">
+                <img src="icons/brazil-400x400.png"">
                 <div class="popup_text">
                     <p>Производитель:</p>
                     <p>Bean & Roast</p>
                     <p>Страна:</p>
                     <p>Бразилия</p>
                     <p>Кислотность:</p>
-                    <img src="icons/points-2-135x15.png" alt="">
+                    <img src="icons/5points.png" alt="">
                     <p>Плотность:</p>
-                    <img src="icons/PLOTNOSTCOSTARICA.png" alt="">
+                    <img src="icons/2points.png" alt="">
                     <p>Сладость:</p>
-                    <img src="icons/SLADOSTCOSTARICA.png" alt="">
+                    <img src="icons/3points.png" alt="">
                     <p>Послевкусие:</p>
-                    <img src="icons/POSLEVKUSIE.png" alt="">
+                    <img src="icons/3points.png" alt="">
                 </div>
             </div>
             <p class="price">750 р.</p>
@@ -596,6 +603,7 @@
 </div>
 
 <div class="popup"  id="popup9">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
     <div class="popup_body">
         <div class="popup_content">
             <a href="#header" class="popup_close">X</a>
@@ -608,13 +616,13 @@
                     <p>Страна:</p>
                     <p>Индонезия</p>
                     <p>Кислотность:</p>
-                    <img src="icons/points-2-135x15.png" alt="">
+                    <img src="icons/4points.png" alt="">
                     <p>Плотность:</p>
-                    <img src="icons/PLOTNOSTCOSTARICA.png" alt="">
+                    <img src="icons/3points.png" alt="">
                     <p>Сладость:</p>
-                    <img src="icons/SLADOSTCOSTARICA.png" alt="">
+                    <img src="icons/2points.png" alt="">
                     <p>Послевкусие:</p>
-                    <img src="icons/POSLEVKUSIE.png" alt="">
+                    <img src="icons/4points.png" alt="">
                 </div>
             </div>
 
@@ -629,6 +637,6 @@
 <script src="js/simplebar.js"></script>
 <script src="js/modal.js"></script>
 <script src="js/cart.js"></script>
-
+<script src="js/disablescroll.js"></script>
 </body>
 </html>

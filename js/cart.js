@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
 const productsBtn=document.querySelectorAll('.tocart')
 const productsBtnPop=document.querySelectorAll('.tocartforp')
 const cartProductsList=document.querySelector('.cart-content_list');
@@ -31,8 +32,17 @@ const minusFullPrice=(currentPrice)=>{
 };
 
 const printFullPrice=()=>{
-    fullPrice.textContent=`${normalPrice(price)} р.`
+    fullPrice.textContent=`${normalPrice(price)} р.`;
 };
+
+const minusModalPrice=(currentPrice)=>{
+    return modalprice-=currentPrice;
+
+}
+const printModalPrice=()=>{
+
+    orderModalPrice.textContent=`${normalPrice(modalprice)} р.`;
+}
 
 //получение числа и выведение в коризну
 const printQuantity=()=>{
@@ -65,13 +75,21 @@ const generateCartProduct=(img,title,price,id)=>{
 const deleteProducts=(productParent)=>{
     let id=productParent.querySelector('.cart-product').dataset.id;
     let currentPrice=parseInt(productParent.querySelector('.cart-product-price').textContent);
+
+
+
+
+
     minusFullPrice(currentPrice);
     printFullPrice();
+
+
     productParent.remove();
     printQuantity();
+    updateStorage();
 
 }
-
+//добавление в корзину обычных продуктов
 productsBtn.forEach(element=>{
     element.closest('.product').setAttribute('data-id',randomId());
     element.addEventListener('click',(e)=>{
@@ -90,10 +108,11 @@ productsBtn.forEach(element=>{
         printFullPrice();
         cartProductsList.querySelector('.simplebar-content').insertAdjacentHTML('afterbegin', generateCartProduct(img,title,priceNumber,id));
         printQuantity();
+        updateStorage();
         self.disabled=true;
     });
 });
-
+// добавление в корзину из попапа
 productsBtnPop.forEach(element2=>{
     element2.closest('.popup_content').setAttribute('data-id',randomId());
     element2.addEventListener('click',(e1)=>{
@@ -113,6 +132,7 @@ productsBtnPop.forEach(element2=>{
         printFullPrice();
         cartProductsList.querySelector('.simplebar-content').insertAdjacentHTML('afterbegin', generateCartProduct(img,title,priceNumber,id));
         printQuantity();
+        updateStorage();
         self.disabled=true;
     });
 });
@@ -163,6 +183,7 @@ const modal=new GraphModal({
 
         document.querySelector('.order-modal__quantity span').textContent = `${length} шт`;
         document.querySelector('.order-modal__summ span').textContent = `${fullprice}`;
+
         for (item of array) {
             console.log(item)
             let img = item.querySelector('.cart-product_img').getAttribute("src");
@@ -183,4 +204,65 @@ const modal=new GraphModal({
     isClose: () => {
         console.log('closed');
     }
-})
+});
+
+const countSumm = () => {
+    document.querySelectorAll('.cart-content_item').forEach(el => {
+        price += parseInt((el.querySelector('.cart-product-price').textContent));
+    });
+};
+
+const initialState = () => {
+    if (localStorage.getItem('products') !== null) {
+        cartProductsList.querySelector('.simplebar-content').innerHTML = localStorage.getItem('products');
+        printQuantity();
+        countSumm();
+        printFullPrice();
+
+
+        document.querySelectorAll('.cart-content_product').forEach(el => {
+            let id = el.dataset.id;
+            console.log(id)
+
+        });
+    }
+};
+
+initialState();
+
+const updateStorage = () => {
+    let parent = cartProductsList.querySelector('.simplebar-content');
+    let html = parent.innerHTML;
+    html = html.trim();
+
+    if (html.length) {
+        localStorage.setItem('products', html);
+    } else {
+        localStorage.removeItem('products');
+    }
+};
+
+
+document.querySelector('.modal').addEventListener('click', (e) => {
+
+
+
+    if (e.target.classList.contains('order-product__delete')) {
+
+        let id = e.target.closest('.order-modal__product').dataset.id;
+        let cartProduct = document.querySelector(`.cart-content_product[data-id="${id}"]`).closest('.cart-content_item');
+        let cartPrice =  parseInt(cartProduct.querySelector('.cart-product-price').textContent);
+        let orderModalPrice= priceWithoutSpaces(document.querySelector('.order-modal__summ span').textContent);
+        let orderModalQuantity = parseInt(document.querySelector('.order-modal__quantity span').textContent);
+        let modalquantity=orderModalQuantity-1;
+        let modalprice=parseInt(orderModalPrice)-parseInt(cartPrice);
+        document.querySelector('.order-modal__summ span').textContent=`${normalPrice(modalprice)} р`;
+        document.querySelector('.order-modal__quantity span').textContent=`${(modalquantity)} шт`;
+
+        console.log(modalprice);
+        deleteProducts(cartProduct);
+        e.target.closest('.order-modal__product').remove();
+    }
+});
+
+});

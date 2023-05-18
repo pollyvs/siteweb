@@ -50,18 +50,7 @@ class GraphModal {
             }
         }.bind(this));
 
-        window.addEventListener('keydown', function(e) {
-            if (e.keyCode == 27) {
-                if (this.modalContainer.classList.contains('modal-open')) {
-                    this.close();
-                }
-            }
-
-            if (e.which == 9 && this.isOpened) {
-                this.focusCatch(e);
-                return;
-            }
-        }.bind(this));
+        
 
         this.modal.addEventListener('click', function(e) {
             if (!e.target.classList.contains('modal__container') && !e.target.closest('.modal__container') && this.isOpened) {

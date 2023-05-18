@@ -19,6 +19,7 @@
 
 
 }
+
 .header{
 
     width:100%;
@@ -54,10 +55,11 @@
 }
 
 .htmltext{
-    font-size: 50px;
+    font-size: 40px;
     user-select: none;
+    text-align: center;
     line-height: 100px;
-    font-family:Ustroke;
+    font-family:"Courier New";
     cursor: pointer;
     width:33%;
 }
@@ -316,6 +318,9 @@ nav ul li{
     opacity:1;
     visibility: visible;
 }
+
+
+
 .popup_content{
     background-color: white;
     color:black;
@@ -378,6 +383,13 @@ nav ul li{
     height: 35px;
 }
 
+.popup_area{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
 
 .popup .tocartforp{
     height: 50px;
@@ -403,11 +415,7 @@ nav ul li{
     color:white ;
 }
 
-.tocartforp:disabled{
-    opacity: 0.4;
-    background-color: red;
-    pointer-events: none;
-}
+
 
 .popup_content .price{
     font-size: 30px;
@@ -416,179 +424,11 @@ nav ul li{
     margin-top:15px;
 }
 
-.order-modal{
-    width:300px;
-    min-height:400px;
-}
 
-.order-modal__top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+.disable-scroll{
 
-.order-modal__title{
-    margin-bottom: 15px;
-    font-family: Manrope;
-    font-size: 30px;
-    line-height: 20px;
-}
-.order-modal__number {
-    font-family: Manrope;
-
-    font-size: 12px;
-    line-height: 20px;
-    text-align: right;
-
-}
-.order-modal__info {
-    margin-bottom: 20px;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 34px 40px;
-    font-family: Manrope;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-}
-.order-modal__info-item:not(:last-child) {
-    margin-bottom: 15px;
-}
-
-.order-modal__btn {
-    position: relative;
-    background-color: transparent;
-    border: none;
-    font-family: Manrope;
-    cursor: pointer;
-    padding: 0;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-
-}
-
-
-.order-modal__btn::after {
-    content: "";
-    position: absolute;
-    right: -10px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 7px;
-    height: 7px;
-    background-image: url("../icons/arrowdown.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-/*after чтобы поворачивалась только стрелка*/
-.order-modal__btn.open::after {
-    transform: translateY(-50%) rotate(180deg);
-}
-
-
-
-.order__label {
-    margin-bottom: 14px;
-    display: flex;
-    font-family: Manrope;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-
-}
-
-.order__input {
-    padding-left: 14px;
-    padding-right: 14px;
-    width: 240px;
-    font-family: Manrope;
-    height: 45px;
-    background: #efefef;
-    border-radius: 4px;
-    border: none;
-}
-
-.order__input::placeholder {
-    color: lightgrey;
-}
-.order__btn{
-    font-size: 17px;
-    font-family: "Manrope";
-    border: black solid 2px;
-    height:50px;
-    width:100%;
-    margin-top: 10px;
-    text-align: center;
-    background-color: transparent;
-    transition: all 0.3s ease 0s;
-}
-
-.order__btn:hover{
-    background-color: black;
-    color:white ;
-
-}
-.order-modal__product {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.order-modal__list {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.order-product__img {
-    max-width: 130px;
-    max-height: 130px;
-    object-fit: cover;
-    margin-right: 10px;
-}
-
-.order-modal__list {
-    display: none;
-}
-
-.order-modal__item:not(:last-child) {
-    margin-bottom: 14px;
-}
-ul li{
-    list-style-type: none;
-}
-.order-product__text {
-    margin-right: 10px;
-    width:35%;
-}
-
-.order-product__title {
-    margin-bottom: 15px;
-    font-family: Manrope;
-    font-size: 20px;
-
-
-}
-
-.order-product__price {
-    font-family: "Manrope";
-    font-size: 18px;
-    line-height: 18px;
-
-}
-
-.order-product__delete {
-    background-color: transparent;
-    font-family: Manrope;
-    width:33%;
-    border: none;
-    cursor: pointer;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: right;
-
+    overflow: hidden;
+    height:100vh;
+    position: fixed;
+    top:0;
 }
