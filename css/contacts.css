@@ -7,12 +7,13 @@
     box-sizing:border-box;
 
 }
+.body{
+    background-color: lavender;
+}
 
 .container{
     margin: 0 auto;
     width:100% ;
-
-    background-color:pink;
 
 
 }
@@ -123,6 +124,39 @@ a{
     border-radius: 8px;
 }
 
+.contacts{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.contacts .adress{
+    width:50%;
+    margin-bottom: 50px;
+    margin-top:30px;
+}
+.contacts .phone{
+    width:50%;
+    margin-bottom: 50px;
+    margin-top:30px;
+}
+.contacts .schedule{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.contacts .thirdtext{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.contacts p{
+    font-family: Manrope,sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
 .header .bag{
     height:80px;
     width:90px;
@@ -140,9 +174,10 @@ a{
 
 
 .map{
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 30px;
-
+    width:100%;
+    height:300px;
 }
 
 
@@ -153,9 +188,18 @@ a{
 .footer{
     float: right;
     width: 100%;
-
     background-color: lavender;
 }
+
+@media only screen and (max-width:1000px){
+    .footer{
+        height: 70vh;
+    }
+
+}
+
+
+
 
 .footer .sections{
     display: flex;
@@ -241,7 +285,6 @@ form button:hover{
 
     margin-bottom: 10px;
 }
-
 
 
 
