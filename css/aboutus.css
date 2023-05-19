@@ -156,7 +156,7 @@
     font-size: 25px;
 }
 
-.continue{
+.lowertext{
     text-align: center;
     font-family: Manrope;
     font-size: 30px;
@@ -165,13 +165,7 @@
 }
 
 
-.est{
-    text-align: center;
-    font-family: Manrope;
-    font-size: 15px;
 
-    margin-bottom: 10px;
-}
 
 .footer{
     float: right;
@@ -192,6 +186,8 @@
     font-size:20px;
     text-align: center;
     margin-top:50px;
+    user-select: none;
+    cursor: pointer;
     color:black;
 
 }
@@ -217,10 +213,31 @@ form input[type="email"] {
 
 }
 
+
+
 .email::placeholder{
     color: lightgrey;
 }
 
+.socials{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.socials img{
+    height:40px;
+    width: 40px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:15px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+}
+.socials img:hover{
+    transform: scale(105%);
+}
 form button {
     padding: 8px 16px;
     background-color: white;
@@ -234,7 +251,13 @@ form button:hover{
     background-color: black;
     color:white ;
 }
+.est{
+    text-align: center;
+    font-family: Manrope;
+    font-size: 15px;
 
+    margin-bottom: 10px;
+}
 
 
 
