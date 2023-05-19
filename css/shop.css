@@ -1,7 +1,6 @@
 @import "simplebar.css";
 
 
-@import "fonts.css";
 *{
     margin:0;
     padding: 0;
@@ -187,7 +186,7 @@ nav ul li{
     height:100px;
     padding-right: 5%;
     padding-top: 2%;
-    font-family: "Manrope";
+    font-family: Manrope;
 }
 
 .midpics .price{
@@ -255,7 +254,7 @@ nav ul li{
     line-height: 50px;
     text-align: center;
     font-size: 17px;
-    font-family: "Manrope";
+    font-family: Manrope;
 
 
 
@@ -307,8 +306,9 @@ nav ul li{
     color:black;
     user-select: none;
     cursor: pointer;
-
 }
+
+
 .footertext{
     font-family: Manrope;
     font-size: 30px;
@@ -316,11 +316,11 @@ nav ul li{
     margin-top:50px;
 }
 
-form{
+.footer form{
     display: flex;
     justify-content: center;
 }
-form input[type="email"] {
+.footer form input[type="email"] {
     width: 50%;
     margin-top:15px;
     padding: 15px;
@@ -333,7 +333,7 @@ form input[type="email"] {
 
 
 
-.email::placeholder{
+.footer .email::placeholder{
     color: lightgrey;
 }
 
@@ -371,7 +371,7 @@ form button:hover{
 }
 .est{
     text-align: center;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 15px;
 
     margin-bottom: 10px;
@@ -451,7 +451,7 @@ form button:hover{
 .popup_title{
     font-size: 50px;
     margin-bottom:60px;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     text-align: center;
 }
 .popup_text{
@@ -466,7 +466,7 @@ form button:hover{
     margin-bottom: 10px;
     margin-top: 0.3%;
     font-size: 18px;
-    font-family: "Manrope";
+    font-family: 'Manrope', sans-serif;
 
 }
 
@@ -475,7 +475,7 @@ form button:hover{
     height: 35px;
 }
 .popup_just .descr{
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 20px;
     margin-right:40px;
     margin-left:40px;
@@ -505,7 +505,7 @@ form button:hover{
     line-height: 50px;
     text-align: center;
     font-size: 17px;
-    font-family: "Manrope";
+    font-family: 'Manrope', sans-serif;
     transition: background-color 0.3s ease 0s;
 }
 
@@ -518,7 +518,7 @@ form button:hover{
 
 .popup_content .price{
     font-size: 30px;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     text-align: center;
     margin-top:15px;
 }

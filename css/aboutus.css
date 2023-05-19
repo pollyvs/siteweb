@@ -152,13 +152,13 @@
     width: 50%;
     padding: 60px 50px 30px 30px;
     text-align: center;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 25px;
 }
 
 .lowertext{
     text-align: center;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 30px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -182,7 +182,7 @@
 }
 .sections .linkstopages{
     width:33%;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size:20px;
     text-align: center;
     margin-top:50px;
@@ -192,7 +192,7 @@
 
 }
 .footertext{
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top:50px;
@@ -253,7 +253,7 @@ form button:hover{
 }
 .est{
     text-align: center;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 15px;
 
     margin-bottom: 10px;

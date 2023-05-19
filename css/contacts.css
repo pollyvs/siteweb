@@ -1,4 +1,4 @@
-@import "fonts.css";
+
 
 *{
     margin:0;
@@ -165,7 +165,7 @@ a{
 }
 .sections .linkstopages{
     width:33%;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size:20px;
     text-align: center;
     margin-top:50px;
@@ -175,7 +175,7 @@ a{
 
 }
 .footertext{
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top:50px;
@@ -236,7 +236,7 @@ form button:hover{
 }
 .est{
     text-align: center;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 15px;
 
     margin-bottom: 10px;

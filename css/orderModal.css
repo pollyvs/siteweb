@@ -1,4 +1,4 @@
-@import "fonts.css";
+
 @import "responsiveshop.css";
 @import "modal.css";
 
@@ -15,12 +15,12 @@
 
 .order-modal__title{
     margin-bottom: 15px;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 30px;
     line-height: 20px;
 }
 .order-modal__number {
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
 
     font-size: 12px;
     line-height: 20px;
@@ -32,7 +32,7 @@
     border: 1px solid black;
     border-radius: 4px;
     padding: 34px 40px;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
@@ -45,7 +45,7 @@
     position: relative;
     background-color: transparent;
     border: none;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     cursor: pointer;
     padding: 0;
     font-weight: 400;
@@ -78,7 +78,7 @@
 .order__label {
     margin-bottom: 14px;
     display: flex;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     align-items: center;
     margin-left:30px ;
     justify-content: space-between;
@@ -93,7 +93,7 @@
     padding-left: 14px;
     padding-right: 14px;
     width: 240px;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     height: 45px;
     background: whitesmoke;
     border-radius: 4px;
@@ -105,7 +105,7 @@
 }
 .order__btn{
     font-size: 17px;
-    font-family: "Manrope";
+    font-family: 'Manrope', sans-serif;;
     border: black solid 2px;
     height:50px;
     width:100%;
@@ -155,14 +155,14 @@ ul li{
 
 .order-product__title {
     margin-bottom: 15px;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 20px;
 
 
 }
 
 .order-product__price {
-    font-family: "Manrope";
+    font-family: 'Manrope', sans-serif;;
     font-size: 18px;
     line-height: 18px;
 
@@ -170,7 +170,7 @@ ul li{
 
 .order-product__delete {
     background-color: transparent;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     width:33%;
     border: none;
     cursor: pointer;

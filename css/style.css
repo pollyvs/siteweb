@@ -1,4 +1,4 @@
-@import "fonts.css";
+
 
 
 *{
@@ -160,7 +160,7 @@
     font-size: 35px;
     line-height: 50px;
     font-weight: 800;
-    font-family: "Manrope";
+    font-family: 'Manrope', sans-serif;
     text-decoration: underline 3px black;
 }
 
@@ -172,11 +172,11 @@
     margin-bottom: 20px;
     font-size: 25px;
     font-weight: 800;
-    font-family: "Manrope";
+    font-family: 'Manrope', sans-serif;
 }
 .questions ul li{
     font-size: 20px;
-    font-family: "Manrope";
+    font-family: 'Manrope', sans-serif;
     margin-left: 30px;
     margin-top:5px;
 }
@@ -207,7 +207,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    font-family:Manrope ;
+    font-family: 'Manrope', sans-serif;
     font-weight: 800;
     font-size: 40px;
 }
@@ -217,7 +217,7 @@
     top:85%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family:Manrope ;
+    font-family: 'Manrope', sans-serif;
     color: lightgrey;
     font-weight: 800;
     font-size: 20px;
@@ -229,7 +229,7 @@
     left: 50%;
     color: lightgrey;
     transform: translate(-50%, -50%);
-    font-family:Manrope ;
+    font-family: 'Manrope', sans-serif;
     font-weight: 800;
     font-size: 20px;
 
@@ -320,7 +320,7 @@
     line-height: 50px;
     text-align: center;
     font-size: 12px;
-    font-family: "Manrope";
+    font-family: 'Manrope', sans-serif;
 
 
 
@@ -351,7 +351,7 @@
 }
 .sections .linkstopages{
     width:33%;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size:20px;
     text-align: center;
     margin-top:50px;
@@ -361,7 +361,7 @@
 
 }
 .footertext{
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top:50px;
@@ -422,7 +422,7 @@ form button:hover{
 }
 .est{
     text-align: center;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 15px;
 
     margin-bottom: 10px;

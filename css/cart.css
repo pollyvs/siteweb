@@ -1,4 +1,4 @@
-@import "fonts.css";
+
 @import "shop.css";
 @import "responsiveshop.css";
 .cart{
@@ -36,7 +36,7 @@
     line-height: 1;
 }
 .cart_text{
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
 }
 .cart-content{
     cursor: default;
@@ -77,7 +77,7 @@
 .cart-product-title{
     width:120px;
     max-width:120px;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size:18px;
 
     margin-left:20px;
@@ -85,7 +85,7 @@
 }
 
 .cart-product-price{
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 20px;
     line-height: 23px;
     margin-left:20px;
@@ -120,17 +120,17 @@
 .cart-content_fullPrice{
     display: flex;
     flex-direction: column;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 20px;
 }
 .fullPrice{
-    font-family:Manrope;
+    font-family: 'Manrope', sans-serif;;
     font-size: 25px;
 
 }
 .cart-content_btn{
     font-size: 17px;
-    font-family: "Manrope";
+    font-family: 'Manrope', sans-serif;
     border: black solid 2px;
     height:50px;
     width:246px;
