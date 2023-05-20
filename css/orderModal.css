@@ -18,6 +18,8 @@
     font-family: 'Manrope', sans-serif;
     font-size: 30px;
     line-height: 20px;
+    margin-left:15px;
+    margin-top:15px;
 }
 .order-modal__number {
     font-family: 'Manrope', sans-serif;
@@ -101,7 +103,7 @@
 }
 
 .order__input::placeholder {
-    color: black;
+    color: gray;
 }
 .order__btn{
     font-size: 17px;
@@ -180,3 +182,49 @@ ul li{
     text-align: right;
 
 }
+
+@media  only screen and (max-width: 1000px){
+
+    .order-modal__info{
+        font-size: 25px;
+    }
+    .order-modal__btn{
+        font-size:25px;
+    }
+
+    .order__label{
+        font-size:20px;
+    }
+
+    .order-modal__title{
+        margin-bottom: 30px;
+    }
+    .order-modal__number{
+        font-size: 20px;
+        color:gray;
+    }
+
+    .order__input{
+        width:330px;
+        height:70px;
+    }
+    .order__btn{
+        font-size:25px;
+        height:80px;
+    }
+    .order__input::placeholder {
+        color: gray;
+        font-size:20px;
+    }
+
+    .order-product__title{
+        font-size: 30px;
+    }
+    .order-product__price{
+        font-size:25px;
+    }
+    .order-product__delete{
+        font-size:20px;
+    }
+}
+

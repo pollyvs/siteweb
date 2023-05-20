@@ -148,7 +148,7 @@ a{
     margin-top:10px;
 }
 
-nav ul{
+.filter nav ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
