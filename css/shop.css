@@ -187,11 +187,11 @@ nav ul li{
     height:100px;
     padding-right: 5%;
     padding-top: 2%;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
 }
 
 .midpics .price{
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-weight: 600;
     height:30px;
     margin-top: 15px;
@@ -200,7 +200,7 @@ nav ul li{
     text-align: center;
 }
 .midpics .weigh{
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     lint-height: 20px;
     color: gray;
     font-weight: 100;
@@ -217,7 +217,8 @@ nav ul li{
     width:80%;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Amasis MT";
+    font-family: '"Amasis MT"';
+    font-weight: 800;
     border: 4px double black;
 }
 
@@ -255,7 +256,7 @@ nav ul li{
     line-height: 50px;
     text-align: center;
     font-size: 17px;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
 
 
 
@@ -300,7 +301,7 @@ nav ul li{
 }
 .sections .linkstopages{
     width:33%;
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size:20px;
     text-align: center;
     margin-top:50px;
@@ -311,7 +312,7 @@ nav ul li{
 
 
 .footertext{
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top:50px;
