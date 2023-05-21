@@ -122,8 +122,8 @@
     white-space: nowrap;
     will-change: transform;
     animation: move 10s linear infinite;
-
 }
+
 .headinglvl1{
     width:100%;
     white-space: nowrap;
@@ -530,11 +530,10 @@ form button:hover{
         margin-top:50px;
         margin-bottom: 50px;
     }
-    .FAQquestiontext{
-        font-size: 20px;
-    }
+
     .FAQAnswerText{
         font-size: 20px;
+        padding-bottom: 10px;
     }
 }
 
