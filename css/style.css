@@ -530,6 +530,12 @@ form button:hover{
         margin-top:50px;
         margin-bottom: 50px;
     }
+    .FAQquestiontext{
+        font-size: 20px;
+    }
+    .FAQAnswerText{
+        font-size: 20px;
+    }
 }
 
 
