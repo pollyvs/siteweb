@@ -1,15 +1,4 @@
-@media  only screen and (max-width: 1000px){
- .midpics{
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
- }
-    .midpics .product{
-        width: 50%;
-        margin-bottom: 10%;
-    }
 
-}
 @media  only screen and (max-width: 1300px){
     .midpics{
         display: flex;
@@ -18,8 +7,9 @@
     }
     .midpics .product{
         width: 50%;
-        margin-bottom: 10%;
+        margin-bottom: 15%;
     }
+
 
 }
 

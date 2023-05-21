@@ -76,14 +76,8 @@ const deleteProducts=(productParent)=>{
     let id=productParent.querySelector('.cart-product').dataset.id;
     let currentPrice=parseInt(productParent.querySelector('.cart-product-price').textContent);
 
-
-
-
-
     minusFullPrice(currentPrice);
     printFullPrice();
-
-
     productParent.remove();
     printQuantity();
     updateStorage();
@@ -137,14 +131,15 @@ productsBtnPop.forEach(element2=>{
     });
 });
 
+
+// удаление при клике на кнопку удалить в корзине
 cartProductsList.addEventListener('click',(e)=>{
     if (e.target.classList.contains('cart-product-delete')){
-        console.log("clocked");
         deleteProducts(e.target.closest('.cart-content_item'));
     }
 })
 
-//открытие по кнопке наших продуктов
+//открытие списка по кнопке в модальном окне продуктов
 let flag = 0;
 orderModalOpenProd.addEventListener('click', (e) => {
     if (flag == 0) {
@@ -158,6 +153,7 @@ orderModalOpenProd.addEventListener('click', (e) => {
     }
 });
 
+// разметка продукта для модального окна
 const generateModalProduct = (img, title, price, id) => {
     return `
 		<li class="order-modal__item">
@@ -173,6 +169,7 @@ const generateModalProduct = (img, title, price, id) => {
 	`;
 };
 
+// при открытии модального окна создается список с товарами>
 const modal=new GraphModal({
     isOpen: (modal) => {
         orderModalList.innerHTML = '';
@@ -212,6 +209,7 @@ const countSumm = () => {
     });
 };
 
+// обновление количества товаров в корзине
 const initialState = () => {
     if (localStorage.getItem('products') !== null) {
         cartProductsList.querySelector('.simplebar-content').innerHTML = localStorage.getItem('products');
@@ -230,6 +228,7 @@ const initialState = () => {
 
 initialState();
 
+// обновления localstorage
 const updateStorage = () => {
     let parent = cartProductsList.querySelector('.simplebar-content');
     let html = parent.innerHTML;
@@ -244,8 +243,6 @@ const updateStorage = () => {
 
 
 document.querySelector('.modal').addEventListener('click', (e) => {
-
-
 
     if (e.target.classList.contains('order-product__delete')) {
 

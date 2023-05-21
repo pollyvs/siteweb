@@ -206,7 +206,7 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    user-select: none;
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
     font-size: 40px;
@@ -221,6 +221,7 @@
     color: lightgrey;
     font-weight: 800;
     font-size: 20px;
+    user-select: none;
 
 }
 .company .est2{
@@ -353,12 +354,7 @@
 .FAQquestion:hover .lineforFAQ{
    background-color: indianred;
 }
-.FAQquestion:hover .FAQquestiontext{
-    transform: scale(103%);
-}
-.FAQanswer:hover .FAQAnswerText{
-    transform: scale(103%);
-}
+
 
 .FAQanswer:hover{
     background-color: rgba(211, 211, 211, 0.5);
@@ -508,6 +504,33 @@ form button:hover{
 }
 
 
+@media  only screen and (max-width: 1350px){
+    .company .biglabel{
+
+        font-size: 25px;
+    }
+    .questions ul li{
+        font-size: 17px;
+
+    }
+    .question{
+
+        font-size: 20px;
+
+    }
+    .slider-wrap{
+        margin-top:30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media  only screen and (max-width: 1200px){
+
+    .slider-wrap{
+        margin-top:50px;
+        margin-bottom: 50px;
+    }
+}
 
 
 
