@@ -1,0 +1,3 @@
+User-agent: Yandex
+Allow: /rss-feed.xml
+# разрешает скачивание файла file.xml
