@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru"
+     version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://news.yandex.ru ">
+    <channel>
+        <!-- Информация о сайте-источнике -->
+        <title>Название канала</title>
+        <link>https://saddyth.github.io/</link>
+        <description>Краткое описание канала</description>
+        <language>ru</language>
+        <turbo:analytics type="Yandex" id="2281337228"></turbo:analytics>
+        <turbo:adNetwork></turbo:adNetwork>
+        <item turbo="false">
+            <!-- Информация о странице -->
+            <turbo:extendedHtml>true</turbo:extendedHtml>
+            <link>https://saddyth.github.io/index.html</link>
+
+            <pubDate>Tue, 21 Apr 2015 14:15:00 +0300</pubDate>
+            <author>sad ddyth</author>
+
+
+            <turbo:content>
+                <![CDATA[
+                   <div class="container">
+    <div class="header">
+        <div class="cell1">
+            <img class="sitelogo" src="icons/LOGOFORSITEPNG.png">
+
+                <p class="htmltext" onclick="location.href='index.html'">BEAN & ROAST</p>
+
+
+            <img class="bag" src="icons/icon-bag.svg" onclick="location.href='shop.html'" >
+        </div>
+
+    </div>
+
+    <div class="sub">
+        <div class="cell2line">
+
+        </div>
+    <!-- Шапка и переходы на другие страницы-->
+        <div class="cell2">
+            <p class="htmltext2"><a href="aboutus.html">О нас</a></p>
+            <p class="htmltext2"><a href="shop.html">Магазин</a></p>
+            <p class="htmltext2"><a href="contacts.html">Контакты</a></p>
+        </div>
+    </div>
+
+    <div class="formarquee">
+        <div class="midtext">
+            <div>
+                <p class="headinglvl1">Bean&RoastBean&RoastBean&RoastBean&RoastBean&Roast</p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="mid">
+
+        <div class="midheader">
+        </div>
+        <div class="line"></div>
+        <div class="company">
+            <img src="icons/handcoffee.webp" alt="" class="coffee">
+            <p class="biglabel"><b>Bean&Roast </b>- это страсть к кофе, внимание к деталям и стремление предложить вам непревзойденное качество, которое подарит вам настоящий кофейный опыт.</p>
+            <p class="est">BEAN & ROAST </p>
+            <p class="est2">est. 2015</p>
+        </div>
+
+        <div class="line"></div>
+
+        <p class="blocklabel">Топ товары</p>
+        <div class="topproducts-container">
+            <div class="questions">
+                <p class="questions_text">Почему стоит выбирать именно наши зерна? </p>
+                <ul>
+                    <li> <b>Качество:</b> мы гарантируем высокое качество нашего продукта. Сотрудничаем напрямую с фермерами из стран-производителей. Отбираем лучшие кофейные зерна и проводим контроль качества на каждом этапе производства, чтобы обеспечить непревзойденный вкус и аромат кофе.</li>
+                    <li> <b>Пользовательский опыт:</b> мы ценим наших клиентов и стремимся обеспечить им высокий уровень обслуживания.</li>
+                    <li><b>Инновации и технологии:  </b> мы постоянно стремимся к инновациям и используем передовые технологии в процессе обработки и обжарки кофейных зерен. Это позволяет нам достичь максимального сохранения аромата и вкуса в каждой чашке кофе.</li>
+                </ul>
+            </div>
+
+            <div class="slider-wrap">
+                <div class="slider">
+                    <div class="hot">
+                        <img src="icons/costarica.jpg">
+                        <p class="label">Costa Rica</p>
+
+
+
+
+                    </div>
+                    <div class="hot">
+                        <img src="icons/columbia.jpeg">
+                        <p class="label">Colombia</p>
+
+
+
+                    </div>
+                    <div class="hot">
+                        <img src="icons/ethiopia.jpeg">
+                        <p class="label">Ethiopia</p>
+
+
+                    </div>
+
+                    <div class="tocartforp" onclick="location.href='shop.html'">
+
+                        <p>Подробнее</p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+        <div class="line"></div>
+
+        <div class="FAQ">
+            <p class="blocklabel">Часто задаваемые вопросы</p>
+            <div class="FAQquestion">
+                    <div class="lineforFAQ"><p class="bigletter">Q</p></div>
+
+                    <p class="FAQquestiontext">Как сделать заказ?</p>
+            </div>
+            <div class="FAQanswer">
+                <div class="lineforFAQ"><p class="bigletter">A</p></div>
+
+                <p class="FAQAnswerText">Добавляем в корзину товары, открывем ее, нажимаем на кнопку "Перейти в корзину" и заказываем обратный звонок.</p>
+            </div>
+            <div class="FAQquestion">
+                <div class="lineforFAQ"><p class="bigletter">Q</p></div>
+
+                <p class="FAQquestiontext">Поможете с выбором?</p>
+            </div>
+            <div class="FAQanswer">
+                <div class="lineforFAQ"><p class="bigletter">A</p></div>
+
+                <p class="FAQAnswerText">Конечно! Звоните: 8-800-555-35-35!</p>
+            </div>
+            <div class="FAQquestion">
+                <div class="lineforFAQ"><p class="bigletter">Q</p></div>
+
+                <p class="FAQquestiontext">Откуда привозятся зерна?</p>
+            </div>
+            <div class="FAQanswer">
+                <div class="lineforFAQ"><p class="bigletter">A</p></div>
+
+                <p class="FAQAnswerText">Мы сотрудничаем с фермерами различных стран: Бразилия, Колумбия, Гондурас, Куба и многие другие. </p>
+            </div>
+            <div class="FAQquestion">
+                <div class="lineforFAQ"><p class="bigletter">Q</p></div>
+
+                <p class="FAQquestiontext">Какие способы обжарки кофе вы предлагаете?</p>
+            </div>
+            <div class="FAQanswer">
+                <div class="lineforFAQ"><p class="bigletter">A</p></div>
+
+                <p class="FAQAnswerText">Чем светлее обжарка, тем мягче и слаще вкус. Если вам такое по душе - попробуйте наши зерна Costa-Rica и Honduras! </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <div class="emailoffer">
+            <p class="footertext">Давайте быть на связи!</p>
+            <form class="email">
+                <input class="email" type="email" name="Email" placeholder="post@gmail.com">
+
+            </form>
+            <form action="" class="submit">
+                <button type="submit">Подписаться</button>
+            </form>
+        </div>
+        <p class="footertext">Мы в соц.сетях!</p>
+        <div class="socials">
+            <img src="icons/instagram-logo.png" alt="" onclick="location.href='https://instagram.com/bean_roasted?igshid=MzRlODBiNWFlZA=='">
+            <img src="icons/vk.png" alt="" onclick="location.href='https://vk.com/beanroast'">
+            <img src="icons/telegramicon.png" alt="" onclick="location.href='https://t.me/bean_roast'">
+        </div>
+        <div class="sections">
+            <p class="linkstopages" onclick="location.href='aboutus.html'">О нас</p>
+            <p class="linkstopages" onclick="location.href='shop.html'">Магазин</p>
+            <p class="linkstopages" onclick="location.href='contacts.html'">Контакты</p>
+        </div>
+        <p class="est">BEAN & ROAST </p>
+        <p class="est">est. 2015</p>
+
+    </div>
+    <script src="js/slider.js "></script>
+</div>
+
+
+                ]]>
+            </turbo:content>
+        </item>
+        <item turbo="true">
+            <!-- Информация о странице -->
+            <turbo:extendedHtml>true</turbo:extendedHtml>
+            <link>https://saddyth.github.io/aboutus.html</link>
+
+            <pubDate>Tue, 21 Apr 2023 14:15:00 +0300</pubDate>
+            <author>sad ddyth</author>
+            <turbo:content>
+                <![CDATA[
+                   <div class="container">
+    <div class="header">
+        <div class="cell1">
+            <img class="sitelogo" src="icons/LOGOFORSITEPNG.png">
+
+            <p class="htmltext" onclick="location.href='index.html'">BEAN & ROAST</p>
+
+
+            <img class="bag" src="icons/icon-bag.svg" onclick="location.href='shop.html'" >
+        </div>
+
+    </div>
+
+    <div class="sub">
+        <div class="cell2line">
+
+        </div>
+        <div class="cell2">
+            <p class="htmltext2"><a href="aboutus.html">О нас</a></p>
+            <p class="htmltext2"><a href="shop.html">Магазин</a></p>
+            <p class="htmltext2"><a href="contacts.html">Контакты</a></p>
+        </div>
+    </div>
+
+    <div class="mid">
+        <div class="midtext">
+            <p class="headinglvl1">О нас</p>
+        </div>
+        <div class="midheader">
+        </div>
+
+        <div class="aboutus">
+
+            <img src="icons/13-09-2019-02.jpeg" alt="">
+
+
+            <p class="first">Bean & Roast существует с 2015 года. Мы готовы делиться нашей страстью к кофе со всем миром и делать жизнь каждого нашего клиента более вкусной и яркой. .</p>
+
+            <p> Наша компания предлагает широкий ассортимент кофейных зерен из разных стран, таких как Колумбия, Коста-Рика, Гватемала и многих других. </p>
+
+            <img src="icons/person-grinds-grains-coffee-beans-during-the-exhibition-news-photo-1610394139.jpeg" alt="">
+<!--            <p>Мы работаем только с лучшими производителями, чтобы гарантировать нашим клиентам идеальный вкус и аромат в каждой чашке кофе.</p>-->
+            <img src="icons/kofejnaya-plantaciya-v-efiopii.jpeg" alt="">
+
+            <p class="span"> Bean&Roast Coffee закупает зеленое зерно напрямую у фермеров — мы выбираем плантации с лучшим микроклиматом, чтобы привезти качественный кофе.</p>
+
+            <p> Благодаря мастерству наших обжарщиков, вы ощутите, каким разнообразным по вкусу может быть кофе и научитесь различать сорта разных регионов, отмечая оригинальность каждого.</p>
+
+            <img src="icons/top-luchshie-obzharshchiki-kofe-960h540-960x540.jpeg" alt="">
+
+        </div>
+
+        <p class="lowertext"> Мы продолжаем расти, стремясь к изучению новых технологий,
+            методов обжарки и обработки кофейных зерен. Благодаря этому сегодня нашей
+            компании удалось занять ведущее место на рынке свежеобжаренного кофе.</p>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <div class="footer">
+        <div class="emailoffer">
+            <p class="footertext">Давайте быть на связи!</p>
+            <form class="email">
+                <input class="email" type="email" name="Email" placeholder="post@gmail.com">
+
+            </form>
+            <form action="" class="submit">
+                <button type="submit">Подписаться</button>
+            </form>
+        </div>
+        <p class="footertext">Мы в соц.сетях!</p>
+        <div class="socials">
+         <img src="icons/instagram-logo.png" alt="" onclick="location.href='https://instagram.com/bean_roasted?igshid=MzRlODBiNWFlZA=='">
+            <img src="icons/vk.png" alt="" onclick="location.href='https://vk.com/beanroast'">
+            <img src="icons/telegramicon.png" alt="" onclick="location.href='https://t.me/bean_roast'">
+        </div>
+        <div class="sections">
+            <p class="linkstopages" onclick="location.href='aboutus.html'">О нас</p>
+            <p class="linkstopages" onclick="location.href='shop.html'">Магазин</p>
+            <p class="linkstopages" onclick="location.href='contacts.html'">Контакты</p>
+        </div>
+        <p class="est">BEAN & ROAST </p>
+        <p class="est">est. 2015</p>
+
+    </div>
+</div>
+                ]]>
+            </turbo:content>
+        </item>
+        <item turbo="true">
+            <!-- Информация о странице -->
+            <turbo:extendedHtml>true</turbo:extendedHtml>
+            <link>https://saddyth.github.io/shop.html</link>
+            <pubDate>Tue, 21 Apr 2015 14:15:00 +0300</pubDate>
+            <author>Иван Иванов</author>
+
+            <turbo:content>
+                <![CDATA[
+                   <div class="container">
+    <div class="header">
+        <div id ="header" class="cell1">
+            <img class="sitelogo" src="icons/LOGOFORSITEPNG.png">
+                <p class="htmltext" onclick="location.href='index.html'">BEAN & ROAST</p>
+<!--            Корзина-->
+            <div class="header_cart cart " tabindex="0">
+                <div class="cart_text">
+                    <img class="bag" src="icons/icon-bag.svg">
+                    <span class="cart_quantity">0</span>
+                </div>
+
+                <div class="cart-content">
+                    <ul class="cart-content_list" data-simplebar>
+
+                    </ul>
+
+                    <div class="cart-content_bottom">
+                        <div class="cart-content_fullPrice">
+                            <p>Итого:</p>
+                            <p class="fullPrice">0 р</p>
+                        </div>
+                       <button class="cart-content_btn btn" data-graph-path="modal" data-graph-animation="fadeInUp" data-graph-speed="700">Перейти в корзину</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="sub">
+        <div class="cell2line">
+
+        </div>
+<!--        Навигация-->
+        <div class="cell2">
+            <p class="htmltext2" onclick="location.href='aboutus.html'">О нас</p>
+            <p class="htmltext2" onclick="location.href='shop.html'">Магазин</p>
+            <p class="htmltext2" onclick="location.href='contacts.html'">Контакты</p>
+        </div>
+    </div>
+
+    <div class="mid">
+        <div class="midtext">
+            <p class="headinglvl1">Кофе</p>
+        </div>
+        <div class="midheader">
+
+        </div>
+<!--        Фильтр-->
+        <div class="filter">
+            <nav>
+                <ul>
+                    <li data-f="all" class="textfilter">Все</li>
+                    <li data-f="rough" class="textfilter">Более горький</li>
+                    <li data-f="sweet" class="textfilter">Более сладкий</li>
+                    <li data-f="sour" class="textfilter">Более кислый</li>
+
+                </ul>
+            </nav>
+        </div>
+<!--Карточки товаров-->
+        <div class="midpics">
+
+            <div class="box sweet product ">
+                <div  class="forhover">
+                    <a href="#popup" class="popup-link">
+                        <img class="icon" src="icons/costarica.jpg" >
+                    </a>
+                    <p class="label">Costa Rica</p>
+                    <p class="descr">Климат Коста-Рики идеален для культивирования качественной арабики.</p>
+                    <p class="weigh">750 грамм</p>
+
+                </div>
+
+                <p class="price">859 р.</p>
+
+                    <div class="tocart">
+
+                        <p>Добавить в корзину</p>
+                    </div>
+
+
+            </div>
+
+            <div class="box rough product">
+                <div class="forhover">
+                    <a href="#popup1" class="popup-link">
+                        <img class="icon" src="icons/orig.jpg">
+                        <p class="label">Cuba</p>
+                        <p class="descr">Настоящая жемчужина среди кофе Карибского бассейна – яркая, самобытная, узнаваемая.</p>
+                        <p class="weigh">750 грамм</p>
+                    </a>
+
+                </div>
+                <p class="price">830 р.</p>
+
+                    <div class="tocart">
+
+                        <p>Добавить в корзину</p>
+                    </div>
+
+            </div>
+
+            <div class="box sour product">
+                <div class="forhover">
+                    <a href="#popup2" class="popup-link">
+                        <img class="icon" src="icons/honduras.jpg" >
+                        <p class="label"> Honduras</p>
+                        <p class="descr">  Классический образец арабики из Центральной Америки. </p>
+                        <p class="weigh">750 грамм</p>
+                    </a>
+                </div>
+                <p class="price">750 р.</p>
+
+                    <div class="tocart">
+
+                        <p>Добавить в корзину</p>
+                    </div>
+
+            </div>
+
+
+            <div class="box rough product">
+                <div class="forhover">
+                    <a href="#popup3" class="popup-link">
+                        <img class="icon"  src="icons/mexico.png">
+                        <p class="label">Mexico</p>
+                        <p class="descr">Приятный и сбалансированный сорт из высокогорного штата Чиапас. Отличается своим послевкусием.</p>
+                        <p class="weigh">750 грамм</p>
+                    </a>
+                </div>
+                <p class="price">799 р.</p>
+
+                    <div class="tocart">
+
+                        <p>Добавить в корзину</p>
+                    </div>
+
+
+            </div>
+
+            <div class="box sweet product">
+                <div class="forhover">
+                    <a href="#popup4" class="popup-link">
+                        <img class="icon"  src="icons/ethiopia.png">
+                        <p class="label">Ethiopia</p>
+                         <p class="descr">Самая знаменитая арабика из Эфиопии – родины кофе.</p>
+                        <p class="weigh">750 грамм</p>
+                    </a>
+                </div>
+                <p class="price">859 р.</p>
+
+                    <div class="tocart">
+
+                        <p>Добавить в корзину</p>
+                    </div>
+
+
+            </div>
+
+            <div class="box rough product">
+                <div class="forhover">
+                    <a href="#popup5" class="popup-link">
+                        <img class="icon"  src="icons/columbia.png" >
+                        <p class="label">Colombia</p>
+                        <p class="descr"> Невероятное сочетание ноток апельсина и бергамота с берегов Колумбии. </p>
+                        <p class="weigh">750 грамм</p>
+                    </a>
+                </div>
+                <p class="price">830 р.</p>
+
+                    <div class="tocart">
+
+                        <p>Добавить в корзину</p>
+                    </div>
+
+            </div>
+
+
+            <div class="box sweet product">
+                <div class="forhover">
+                    <a href="#popup6" class="popup-link">
+                        <img class="icon"  src="icons/colombia-decaf-400x400.png">
+                        <p class="label">Decaf</p>
+                        <p class="descr">Кофе с ароматом карамели, жареных орехов, сладкой и сочной кислинкой.</p>
+                        <p class="weigh">750 грамм</p>
+                    </a>
+                </div>
+                <p class="price">859 р.</p>
+
+                    <div class="tocart">
+
+                        <p>Добавить в корзину</p>
+                    </div>
+
+
+            </div>
+
+            <div class="box sweet product">
+                <div class="forhover">
+                    <a href="#popup7" class="popup-link">
+                        <img class="icon"  src="icons/nicaragua-400x400.png">
+                        <p class="label">Nicaragua</p>
+                        <p class="descr">Кофе Никарагуа становится настоящим открытием для тех, кто привык к традиционной арабике</p>
+                        <p class="weigh">750 грамм</p>
+                    </a>
+                </div>
+                <p class="price">830 р.</p>
+                    <div class="tocart">
+
+                        <p>Добавить в корзину</p>
+                    </div>
+
+
+            </div>
+
+            <div class="box sour brazil product">
+                <div class="forhover">
+                    <a href="#popup8" class="popup-link">
+                        <img class="icon"  src="icons/brazil-400x400.png" >
+                        <p class="label">Brazil</p>
+                        <p class="descr">Кофе с отчетливой кислинкой, во вкусе выражен молочный шоколад, курага, изюм и орехи. </p>
+                        <p class="weigh">750 грамм</p>
+                    </a>
+                </div>
+                <p class="price">750 р.</p>
+
+                    <div class="tocart">
+
+                        <p>Добавить в корзину</p>
+                    </div>
+
+
+            </div>
+
+            <div class="box sour sumatra product">
+                <div class="forhover">
+                    <a href="#popup9" class="popup-link">
+                        <img class="icon"  src="icons/sumatra-400x400.png" >
+                        <p class="label">Sumatra</p>
+                        <p class="descr">Во вкусе кофе Суматра – сладкое яблоко, лайм, специи и какао. </p>
+                        <p class="weigh">750 грамм</p>
+                    </a>
+                </div>
+                <p class="price">630 р.</p>
+
+                    <div class="tocart">
+
+                        <p>Добавить в корзину</p>
+                    </div>
+
+            </div>
+
+
+
+        </div >
+
+    </div>
+<!--    Футер-->
+    <div class="footer">
+        <div class="emailoffer">
+            <p class="footertext">Давайте быть на связи!</p>
+            <form class="email">
+                <input class="email" type="email" name="Email" placeholder="post@gmail.com">
+
+            </form>
+            <form action="" class="submit">
+                <button type="submit">Подписаться</button>
+            </form>
+        </div>
+        <p class="footertext">Мы в соц.сетях!</p>
+        <div class="socials">
+            <img src="icons/instagram-logo.png" alt="" onclick="location.href='https://instagram.com/bean_roasted?igshid=MzRlODBiNWFlZA=='">
+            <img src="icons/vk.png" alt="" onclick="location.href='https://vk.com/beanroast'">
+            <img src="icons/telegramicon.png" alt="" onclick="location.href='https://t.me/bean_roast'">
+        </div>
+        <div class="sections">
+            <p class="linkstopages" onclick="location.href='aboutus.html'">О нас</p>
+            <p class="linkstopages" onclick="location.href='shop.html'">Магазин</p>
+            <p class="linkstopages" onclick="location.href='contacts.html'">Контакты</p>
+        </div>
+        <p class="est">BEAN & ROAST </p>
+        <p class="est">est. 2015</p>
+
+    </div>
+    </div>
+<!--Шаблон для модального окна -->
+<div class="modal">
+    <div class="modal__container order-modal " role="dialog" aria-modal="true" data-graph-target="modal">
+        <div class="modal-content order-modal__content">
+            <div class="order-modal__top">
+                <p class="order-modal__title">Оформление заказа</p>
+                <p class="order-modal__number">Заказ № 3456 67</p>
+            </div>
+            <div class="order-modal__info">
+                <div class="order-modal__quantity order-modal__info-item">Товаров в заказе: <span>3 шт</span></div>
+                <div class="order-modal__summ order-modal__info-item">Общая сумма заказа: <span>0 ₽</span></div>
+                <div class="order-modal__products order-modal__info-item">
+                    <button class="order-modal__btn">Состав заказа</button>
+                    <ul class="order-modal__list">
+
+                    </ul>
+                </div>
+            </div>
+            <form action="#" class="order-modal__form order">
+                <label class="order__label">
+                    <span class="order__text">Ваше имя</span>
+                    <input type="text" name="Имя" class="order__input">
+                </label>
+                <label class="order__label">
+                    <span class="order__text">Номер телефона</span>
+                    <input type="tel" name="Телефон" class="order__input" placeholder="+7 (___)___-__-__">
+                </label>
+                <label class="order__label">
+                    <span class="order__text">Ваше e-mail</span>
+                    <input type="email" name="Email" class="order__input" placeholder="post@gmail.com">
+                </label>
+                <button class="order__btn btn">Оформить заказ</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Наполнение попапов-->
+<div class="popup"  id="popup">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
+    <div class="popup_body">
+        <div class="popup_content">
+            <a href="#header" class="popup_close">X</a>
+            <div class="popup_title">Costa Rica</div>
+            <div class="popup_just">
+                <img src="icons/costarica.jpg" alt="">
+                <div class="popup_text">
+                    <p>Производитель:</p>
+                    <p>Bean & Roast</p>
+                    <p>Страна:</p>
+                    <p> Коста Рика</p>
+                    <p>Кислотность:</p>
+                    <img src="icons/2points.png" alt="">
+                    <p>Плотность:</p>
+                    <img src="icons/3points.png" alt="">
+                    <p>Сладость:</p>
+                    <img src="icons/4points.png" alt="">
+                    <p>Послевкусие:</p>
+                    <img src="icons/4points.png" alt="">
+                </div>
+                <p class="descr">Климат Коста-Рики идеален для культивирования качественной арабики. Лучшим из лучших среди кофейных регионов страны считается кантон Тарразу. Сорт Costa Rica растет высоко над уровнем моря на вулканической почве, богатой минералами. Это сбалансированный кофе, с цитрусовой кислотностью и нотками абрикоса во вкусе. Его стоит купить тем, кто предпочитает мягкую арабику и ценит сложное послевкусие.</p>
+            </div>
+            <p class="price">859 р.</p>
+
+                <div class="tocartforp">
+
+                    <p>Добавить в корзину</p>
+                </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="popup"  id="popup1">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
+    <div class="popup_body">
+        <div class="popup_content">
+            <a href="#header" class="popup_close">X</a>
+            <div class="popup_title">Cuba</div>
+            <div class="popup_just">
+                <img src="icons/orig.jpg" alt="">
+                <div class="popup_text">
+                    <p>Производитель:</p>
+                    <p>Bean & Roast</p>
+                    <p>Страна:</p>
+                    <p>Куба</p>
+                    <p>Кислотность:</p>
+                    <img src="icons/2points.png" alt="">
+                    <p>Плотность:</p>
+                    <img src="icons/4points.png" alt="">
+                    <p>Сладость:</p>
+                    <img src="icons/2points.png" alt="">
+                    <p>Послевкусие:</p>
+                    <img src="icons/3points.png" alt="">
+                </div>
+                <p class="descr">Терпкая и гармоничная арабика с совсем небольшой кислотностью, которая похожа на кислинку какао. Настоящая жемчужина среди кофе Карибского бассейна – яркая, самобытная, узнаваемая. Тело – плотное и округлое, сладости практически нет. Интенсивная и мощная чашка с множеством пряных нот и типичным вкусом шоколада и табака. Кроме того, во вкусе явственно ощущаются жареные орехи и какао.</p>
+            </div>
+            <p class="price">830 р.</p>
+                <div class="tocartforp">
+
+                    <p>Добавить в корзину</p>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="popup"  id="popup2">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
+    <div class="popup_body">
+        <div class="popup_content">
+            <a href="#header" class="popup_close">X</a>
+            <div class="popup_title">Honduras</div>
+            <div class="popup_just">
+                <img src="icons/honduras.jpg" alt="">
+                <div class="popup_text">
+                    <p>Производитель:</p>
+                    <p>Bean & Roast</p>
+                    <p>Страна:</p>
+                    <p>Гондурас</p>
+                    <p>Кислотность:</p>
+                    <img src="icons/4points.png" alt="">
+                    <p>Плотность:</p>
+                    <img src="icons/3points.png" alt="">
+                    <p>Сладость:</p>
+                    <img src="icons/3points.png" alt="">
+                    <p>Послевкусие:</p>
+                    <img src="icons/4points.png" alt="">
+                </div>
+                <p class="descr">Классический образец арабики из Центральной Америки. Крепкий, спокойный и надежный кофе без цветочных или фруктовых оттенков, кислотность ощущается хорошо. Советуем купить кофе Гондурас Сан Маркос тем, кто ценит традиционный сладкий вкус и аромат без каких бы то ни было дополнений. Особенно хорош для эспрессо и турки. Чашка кофе этого сорта – отличный способ проснуться утром и провести день плодотворно.</p>
+            </div>
+            <p class="price">750 р.</p>
+                <div class="tocartforp">
+
+                    <p>Добавить в корзину</p>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="popup"  id="popup3">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
+    <div class="popup_body">
+        <div class="popup_content">
+            <a href="#header" class="popup_close">X</a>
+            <div class="popup_title">Mexico</div>
+            <div class="popup_just">
+                <img src="icons/mexico.png" alt="">
+                <div class="popup_text">
+                    <p>Производитель:</p>
+                    <p>Bean & Roast</p>
+                    <p>Страна:</p>
+                    <p>Мексика</p>
+                    <p>Кислотность:</p>
+                    <img src="icons/1point.png" alt="">
+                    <p>Плотность:</p>
+                    <img src="icons/4points.png" alt="">
+                    <p>Сладость:</p>
+                    <img src="icons/2points.png" alt="">
+                    <p>Послевкусие:</p>
+                    <img src="icons/5points.png" alt="">
+                </div>
+                <p class="descr">Приятный и сбалансированный сорт из высокогорного штата Чиапас – одного из главных кофейных регионов Мексики. Рекомендуем купить тем, кто предпочитает кофе с минимальной кислотностью и большой плотностью. Имеет узнаваемый вкус зеленого яблока, желтой сливы с оттенками карамели. Сам по себе вкус кофе Мексика Чиапас терпкий, но обволакивающий.</p>
+            </div>
+            <p class="price">799 р.</p>
+                <div class="tocartforp">
+
+                    <p>Добавить в корзину</p>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="popup"  id="popup4">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
+    <div class="popup_body">
+        <div class="popup_content">
+            <a href="#header" class="popup_close">X</a>
+            <div class="popup_title">Ethiopia</div>
+            <div class="popup_just">
+                <img src="icons/ethiopia.png" alt="">
+                <div class="popup_text">
+                    <p>Производитель:</p>
+                    <p>Bean & Roast</p>
+                    <p>Страна:</p>
+                    <p>Эфиопия</p>
+                    <p>Кислотность:</p>
+                    <img src="icons/2points.png" alt="">
+                    <p>Плотность:</p>
+                    <img src="icons/3points.png" alt="">
+                    <p>Сладость:</p>
+                    <img src="icons/4points.png" alt="">
+                    <p>Послевкусие:</p>
+                    <img src="icons/3points.png" alt="">
+                </div>
+                <p class="descr"> Названный в честь национального дерева Эфиопии, кофе Акация от Ally производится мелкими фермерами в регионе Гуджи в Эфиопии. Сладкий, фруктовый профиль эфиопской натуральной акации выбран из-за его классического букета признанных регионов Эфиопии. Благодаря нашей обжарке, кофе имеет среднюю плотность и сладость,деликатную не высокую кислотность, приятное и продолжительное послевкусие. Во вкусе ярко выражен зелёный чай, сладкий лайм, изюм. Аромат манит цветочными и цитрусовыми нюансами. </p>
+            </div>
+            <p class="price">859 р.</p>
+                <div class="tocartforp">
+
+                    <p>Добавить в корзину</p>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="popup"  id="popup5">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
+    <div class="popup_body">
+        <div class="popup_content">
+            <a href="#header" class="popup_close">X</a>
+            <div class="popup_title">Colombia</div>
+            <div class="popup_just">
+                <img src="icons/columbia.png" alt="">
+                <div class="popup_text">
+                    <p>Производитель:</p>
+                    <p>Bean & Roast</p>
+                    <p>Страна:</p>
+                    <p>Колумбия</p>
+                    <p>Кислотность:</p>
+                    <img src="icons/3points.png" alt="">
+                    <p>Плотность:</p>
+                    <img src="icons/4points.png" alt="">
+                    <p>Сладость:</p>
+                    <img src="icons/2points.png" alt="">
+                    <p>Послевкусие:</p>
+                    <img src="icons/3points.png" alt="">
+                </div>
+                <p class="descr">Колумбийский кофе от фермера Рафаэля Айя  — для тех, кто любит яркий кофе и готов эксперементировать. Его ферма расположена на высоте 1750 метров в регионе Уила. В аромате и вкусе напитка ярко выражен сладкий пряный ром, что придает кофе горчинку, персик и специи.</p>
+            </div>
+            <p class="price">830 р.</p>
+                <div class="tocartforp">
+                    <p>Добавить в корзину</p>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="popup"  id="popup6">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
+    <div class="popup_body">
+        <div class="popup_content">
+            <a href="#header" class="popup_close">X</a>
+            <div class="popup_title">Decaf</div>
+            <div class="popup_just">
+                <img src="icons/colombia-decaf-400x400.png" alt="">
+                <div class="popup_text">
+                    <p>Производитель:</p>
+                    <p>Bean & Roast</p>
+                    <p>Страна:</p>
+                    <p>Бразилия</p>
+                    <p>Сладость:</p>
+                    <img src="icons/4points.png" alt="">
+                    <p>Послевкусие:</p>
+                    <img src="icons/3points.png" alt="">
+                </div>
+                <p class="descr">Decaf – арабика мытого способа обработки. Для декофеинизации был использован этил ацетат (EA, C4H8O2), органическое соединение и побочный продукт ферментации фруктов, который содержится, например, в зрелых бананах и пиве. Именно поэтому процесс декофеинизации с помощью данного растворителя называют натуральным. Кофе с ароматом карамели, жареных орехов, сладкой и сочной кислинкой, плотным, округлым, обволакивающим телом.Во вкусе преобладают ноты какао, жареных орехов и сухофруктов.
+                </p>
+            </div>
+            <p class="price">859 р.</p>
+                <div class="tocartforp">
+
+                    <p>Добавить в корзину</p>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="popup"  id="popup7">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
+    <div class="popup_body">
+        <div class="popup_content">
+            <a href="#header" class="popup_close">X</a>
+            <div class="popup_title">Nicaragua</div>
+            <div class="popup_just">
+                <img src="icons/nicaragua-400x400.png" alt="">
+                <div class="popup_text">
+                    <p>Производитель:</p>
+                    <p>Bean & Roast</p>
+                    <p>Страна:</p>
+                    <p>Никарагуа</p>
+                    <p>Кислотность:</p>
+                    <img src="icons/3points.png" alt="">
+                    <p>Плотность:</p>
+                    <img src="icons/3points.png" alt="">
+                    <p>Сладость:</p>
+                    <img src="icons/5points.png" alt="">
+                    <p>Послевкусие:</p>
+                    <img src="icons/3points.png" alt="">
+                </div>
+                <p class="descr">Марагоджип — одна из разновидностей арабики, которую иногда называют «слоновьим зерном». Все потому, что зерна марагоджипа крупнее других в несколько раз. Из-за этой особенности кофе Никарагуа Марагоджип становится настоящим открытием для тех, кто привык к традиционной арабике.Этот сорт – яркий, сладкий, необычный представитель арабики из Никарагуа. В аромате: черный чай, гранат красные ягоды. Во вкусе ярко выражен чёрный чай, карамель, красная смородина и гранат.  </p>
+            </div>
+            <p class="price">830 р.</p>
+                <div class="tocartforp">
+
+                    <p>Добавить в корзину</p>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="popup"  id="popup8">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
+    <div class="popup_body">
+        <div class="popup_content">
+            <a href="#header" class="popup_close">X</a>
+            <div class="popup_title">Brazil</div>
+            <div class="popup_just">
+                <img src="icons/brazil-400x400.png">
+                <div class="popup_text">
+                    <p>Производитель:</p>
+                    <p>Bean & Roast</p>
+                    <p>Страна:</p>
+                    <p>Бразилия</p>
+                    <p>Кислотность:</p>
+                    <img src="icons/4points.png" alt="">
+                    <p>Плотность:</p>
+                    <img src="icons/2points.png" alt="">
+                    <p>Сладость:</p>
+                    <img src="icons/3points.png" alt="">
+                    <p>Послевкусие:</p>
+                    <img src="icons/3points.png" alt="">
+                </div>
+                <p class="descr">Кислый орехово-шоколадный кофе. Пожалуй, самая знаменитая арабика из Бразилии. Выращивается в окрестностях города-порта Сантос, отсюда и название. В отзывах о кофе Бразилия Сантос обычно подчеркиваются его нежный вкус, средняя интенсивность, присутствие кислинки. Помимо какао и ореха во вкусе ощущается карамель. В аромате слышны ноты специй и ореха.</p>
+            </div>
+            <p class="price">750 р.</p>
+                <div class="tocartforp">
+
+                    <p>Добавить в корзину</p>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="popup"  id="popup9">
+    <div  class="popup_area" onclick="location.href='#header'"></div>
+    <div class="popup_body">
+        <div class="popup_content">
+            <a href="#header" class="popup_close">X</a>
+            <div class="popup_title">Sumatra</div>
+            <div class="popup_just">
+                <img src="icons/sumatra-400x400.png" alt="">
+                <div class="popup_text">
+                    <p>Производитель:</p>
+                    <p>Bean & Roast</p>
+                    <p>Страна:</p>
+                    <p>Индонезия</p>
+                    <p>Кислотность:</p>
+                    <img src="icons/4points.png" alt="">
+                    <p>Плотность:</p>
+                    <img src="icons/3points.png" alt="">
+                    <p>Сладость:</p>
+                    <img src="icons/2points.png" alt="">
+                    <p>Послевкусие:</p>
+                    <img src="icons/4points.png" alt="">
+                </div>
+                <p class="descr">Арабика для тех, кто любит особенный кофе. Уникальный сорт из загадочной Индонезии, выращенный на острове Суматра в регионе Гайо Хай. Во вкусе кофе Суматра Гайо Хайчланд – сладкое яблоко, лайм, специи и какао. Высокая кислотность и средняя плотность с очень долгим послевкусием. Зеленый кофе в зернах мы закупаем напрямую на индонезийской плантации и обжариваем для вас непосредственно перед доставкой.</p>
+            </div>
+
+            <p class="price">630 р.</p>
+                <div class="tocartforp">
+                    <p>Добавить в корзину</p>
+                </div>
+        </div>
+    </div>
+</div>
+                ]]>
+            </turbo:content>
+        </item>
+        <item turbo="true">
+            <!-- Информация о странице -->
+            <turbo:extendedHtml>true</turbo:extendedHtml>
+            <link>https://saddyth.github.io/contacts.html</link>
+            <pubDate>Tue, 21 Apr 2015 14:15:00 +0300</pubDate>
+            <author>Иван Иванов</author>
+
+            <turbo:content>
+                <![CDATA[
+                   <div class="container">
+        <div class="header">
+            <div class="cell1">
+                <img class="sitelogo" src="icons/LOGOFORSITEPNG.png">
+
+                <p class="htmltext" onclick="location.href='index.html'">BEAN & ROAST</p>
+
+
+                <img class="bag" src="icons/icon-bag.svg" onclick="location.href='shop.html'" >
+            </div>
+
+        </div>
+
+    <div class="sub">
+        <div class="cell2line"></div>
+        <div class="cell2">
+            <p class="htmltext2"><a href="aboutus.html">О нас</a></p>
+            <p class="htmltext2"><a href="shop.html">Магазин</a></p>
+            <p class="htmltext2"><a href="contacts.html">Контакты</a></p>
+        </div>
+    </div>
+
+
+    <div class="mid">
+        <div class="midtext">
+            <p class="headinglvl1">Контакты</p>
+        </div>
+        <div class="midheader">
+        </div>
+
+        <div class="contacts">
+
+            <div class="adress">
+                <p>Адрес</p>
+                <p>Г. Санкт-Петербург ул. Съезжинская д.12</p>
+            </div>
+            <div class="phone">
+                <p>Номер телефона</p>
+                <p>8-800-555-35-35</p>
+            </div>
+           <div class="schedule">
+               <p>График работы:</p>
+               <p> с 10-00 до 18-00, кроме выходных и праздничных дней.</p>
+               <p class="thirdtext"> Ждем вас в гости!</p>
+
+           </div>
+
+        </div>
+
+
+
+
+
+        <div class="map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A75928e4c72be7233bb19b597bc9471b5aecd04e241da3adc1ab11f286dd1645f&amp;lang=ru_RU&amp;scroll=false"></script>
+        </div>
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="footer">
+            <div class="emailoffer">
+                <p class="footertext">Давайте быть на связи!</p>
+                <form class="email">
+                    <input class="email" type="email" name="Email" placeholder="post@gmail.com">
+
+                </form>
+                <form action="" class="submit">
+                    <button type="submit">Подписаться</button>
+                </form>
+            </div>
+            <p class="footertext">Мы в соц.сетях!</p>
+            <div class="socials">
+                <img src="icons/instagram-logo.png" alt="" onclick="location.href='https://instagram.com/bean_roasted?igshid=MzRlODBiNWFlZA=='">
+                <img src="icons/vk.png" alt="" onclick="location.href='https://vk.com/beanroast'">
+                <img src="icons/telegramicon.png" alt="" onclick="location.href='https://t.me/bean_roast'">
+            </div>
+            <div class="sections">
+                <p class="linkstopages" onclick="location.href='aboutus.html'">О нас</p>
+                <p class="linkstopages" onclick="location.href='shop.html'">Магазин</p>
+                <p class="linkstopages" onclick="location.href='contacts.html'">Контакты</p>
+            </div>
+            <p class="est">BEAN & ROAST </p>
+            <p class="est">est. 2015</p>
+
+        </div>
+
+    </div>
+                ]]>
+            </turbo:content>
+        </item>
+
+    </channel>
+</rss>
